@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ProductCard from './ProductCard.jsx';
 import { euro } from '../lib/api.js';
+import { parseBlocks } from '../lib/richtext.js';
 
 const KIND_LABEL = {
   completion: 'maakt het compleet',
@@ -15,7 +16,7 @@ export default function ChatMessage({ message, onSend, disabled }) {
   return (
     <div className={`msg ${role}`}>
       <div className="bubble">
-        {text.split('\n').map((line, i) => (line ? <p key={i}>{line}</p> : <br key={i} />))}
+        <RichText text={text} />
       </div>
 
       {products.length > 0 && (
@@ -72,6 +73,34 @@ export default function ChatMessage({ message, onSend, disabled }) {
       )}
     </div>
   );
+}
+
+/** Renders the light markdown models emit, as elements rather than raw HTML. */
+function Inline({ parts }) {
+  return parts.map((part, i) => {
+    if (part.type === 'bold') return <strong key={i}>{part.value}</strong>;
+    if (part.type === 'italic') return <em key={i}>{part.value}</em>;
+    return <span key={i}>{part.value}</span>;
+  });
+}
+
+function RichText({ text }) {
+  return parseBlocks(text).map((block, i) => {
+    if (block.type === 'list') {
+      const List = block.ordered ? 'ol' : 'ul';
+      return (
+        <List key={i}>
+          {block.items.map((item, j) => (
+            <li key={j}><Inline parts={item} /></li>
+          ))}
+        </List>
+      );
+    }
+    if (block.type === 'heading') {
+      return <p key={i} className="bubble-heading"><Inline parts={block.parts} /></p>;
+    }
+    return <p key={i}><Inline parts={block.parts} /></p>;
+  });
 }
 
 function summarizeInput(input) {

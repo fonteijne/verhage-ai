@@ -20,13 +20,21 @@ const stub = http.createServer((req, res) => {
   req.on('data', (c) => (body += c));
   req.on('end', () => {
     received.push({ url: req.url, headers: req.headers, body: JSON.parse(body || '{}') });
-    const message = scripted.shift() || { role: 'assistant', content: 'Klaar.' };
+    const next = scripted.shift() || { role: 'assistant', content: 'Klaar.' };
+    // A scripted entry may pin finish_reason (e.g. 'length' for truncation).
+    const { __finish, ...message } = next;
     res.writeHead(200, { 'content-type': 'application/json' });
     res.end(
       JSON.stringify({
         id: 'chatcmpl-stub',
         model: 'stub/model',
-        choices: [{ index: 0, message, finish_reason: message.tool_calls ? 'tool_calls' : 'stop' }],
+        choices: [
+          {
+            index: 0,
+            message,
+            finish_reason: __finish || (message.tool_calls ? 'tool_calls' : 'stop'),
+          },
+        ],
       })
     );
   });
@@ -57,7 +65,65 @@ const toolCall = (id, name, args) => ({
 test('the provider reports itself configured from OPENROUTER_API_KEY', () => {
   assert.equal(isConfigured(), true);
   assert.equal(model(), 'stub/model');
-  assert.equal(DEFAULT_MODEL, 'anthropic/claude-opus-5');
+  assert.equal(DEFAULT_MODEL, 'deepseek/deepseek-v4-flash-0731');
+});
+
+test('reasoning output is excluded by default, effort left to the model', async () => {
+  reset();
+  scripted = [{ role: 'assistant', content: 'ok' }];
+  await run({ sessionId: fresh(), message: 'hoi' });
+  assert.deepEqual(received[0].body.reasoning, { exclude: true });
+});
+
+test('an explicit reasoning effort is passed through', async () => {
+  reset();
+  scripted = [{ role: 'assistant', content: 'ok' }];
+  process.env.OPENROUTER_REASONING_EFFORT = 'high';
+  await run({ sessionId: fresh(), message: 'hoi' });
+  delete process.env.OPENROUTER_REASONING_EFFORT;
+  assert.deepEqual(received[0].body.reasoning, { effort: 'high', exclude: true });
+});
+
+test('OPENROUTER_REASONING_EFFORT=off omits the parameter entirely', async () => {
+  reset();
+  scripted = [{ role: 'assistant', content: 'ok' }];
+  process.env.OPENROUTER_REASONING_EFFORT = 'off';
+  await run({ sessionId: fresh(), message: 'hoi' });
+  delete process.env.OPENROUTER_REASONING_EFFORT;
+  assert.equal(received[0].body.reasoning, undefined);
+});
+
+test('provider-specific reasoning traces are not echoed back upstream', async () => {
+  reset();
+  scripted = [
+    {
+      role: 'assistant',
+      content: null,
+      reasoning: 'laat me even nadenken',
+      reasoning_details: [{ type: 'reasoning.text', text: 'laat me even nadenken' }],
+      tool_calls: [toolCall('r1', 'view_cart', {})],
+    },
+    { role: 'assistant', content: 'Je bestelling is leeg.' },
+  ];
+
+  await run({ sessionId: fresh(), message: 'wat heb ik?' });
+
+  const echoed = received[1].body.messages.find((m) => m.role === 'assistant');
+  assert.deepEqual(Object.keys(echoed).sort(), ['content', 'role', 'tool_calls']);
+});
+
+test('a reply truncated by max_tokens says so rather than showing nothing', async () => {
+  reset();
+  scripted = [{ role: 'assistant', content: '', __finish: 'length' }];
+  const res = await run({ sessionId: fresh(), message: 'hoi' });
+  assert.match(res.reply, /afgekapt/i);
+});
+
+test('a truncated reply that still has text keeps the text', async () => {
+  reset();
+  scripted = [{ role: 'assistant', content: 'Je hebt een cheeseburger', __finish: 'length' }];
+  const res = await run({ sessionId: fresh(), message: 'hoi' });
+  assert.equal(res.reply, 'Je hebt een cheeseburger');
 });
 
 test('tools are sent in OpenAI function shape with the system prompt', async () => {

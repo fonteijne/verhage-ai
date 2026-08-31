@@ -29,7 +29,7 @@ test('an OpenRouter key alone selects OpenRouter', () => {
   withEnv({ OPENROUTER_API_KEY: 'k' }, () => {
     const p = describeProvider();
     assert.equal(p.id, 'openrouter');
-    assert.equal(p.model, 'anthropic/claude-opus-5');
+    assert.equal(p.model, 'deepseek/deepseek-v4-flash-0731');
     assert.equal(hasLLM(), true);
   });
 });

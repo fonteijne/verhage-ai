@@ -87,6 +87,11 @@ body {
 }
 .bubble p { margin: 0 0 6px; }
 .bubble p:last-child { margin-bottom: 0; }
+.bubble ul, .bubble ol { margin: 0 0 6px; padding-left: 20px; }
+.bubble li { margin: 1px 0; }
+.bubble strong { font-weight: 700; }
+.bubble-heading { font-weight: 700; margin-top: 4px; }
+.msg.user .bubble strong { font-weight: 700; }
 .msg.user .bubble { background: var(--red); border-color: var(--red); color: #fff; }
 
 .typing { display: flex; gap: 4px; padding: 14px; }

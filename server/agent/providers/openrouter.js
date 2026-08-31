@@ -12,11 +12,27 @@ import { SYSTEM_PROMPT } from '../prompt.js';
  * with the model behind it.
  */
 
-export const DEFAULT_MODEL = 'anthropic/claude-opus-5';
+export const DEFAULT_MODEL = 'deepseek/deepseek-v4-flash-0731';
 export const DEFAULT_BASE_URL = 'https://openrouter.ai/api/v1';
 const MAX_TURNS = 8;
 
 export const model = () => process.env.OPENROUTER_MODEL || DEFAULT_MODEL;
+
+/**
+ * Reasoning controls for models that think before answering.
+ *
+ * `exclude` is always on: we render only the final answer, and a reply
+ * truncated mid-thought otherwise arrives with the raw chain of thought
+ * sitting in `content`. Effort is left to the model's own default unless
+ * OPENROUTER_REASONING_EFFORT names one — on the default free model, low
+ * effort measured no faster than the default, and depth is worth more than
+ * a speed guess. Set it to `off` for models that reject the parameter.
+ */
+function reasoningConfig() {
+  const effort = (process.env.OPENROUTER_REASONING_EFFORT || '').trim().toLowerCase();
+  if (effort === 'off') return undefined;
+  return effort ? { effort, exclude: true } : { exclude: true };
+}
 
 export const isConfigured = () => Boolean(process.env.OPENROUTER_API_KEY);
 
@@ -63,12 +79,16 @@ export async function run({ sessionId, message, history = [] }) {
 
   try {
     for (let turn = 0; turn < MAX_TURNS; turn++) {
+      const reasoning = reasoningConfig();
       const response = await client.chat.completions.create({
         model: model(),
-        max_tokens: 4096,
+        // Generous, because reasoning tokens count against this and a
+        // truncated turn loses the whole answer.
+        max_tokens: 8192,
         messages,
         tools: OPENAI_TOOL_SCHEMAS,
         tool_choice: 'auto',
+        ...(reasoning ? { reasoning } : {}),
       });
 
       // OpenRouter surfaces upstream provider failures in the body.
@@ -77,12 +97,24 @@ export async function run({ sessionId, message, history = [] }) {
       if (!choice) throw new Error('OpenRouter gaf geen antwoord terug.');
 
       const assistant = choice.message;
-      messages.push(assistant);
+      // Send back only the fields the API defines. Reasoning traces are
+      // per-provider extras and re-posting them can be rejected upstream.
+      messages.push({
+        role: 'assistant',
+        content: assistant.content ?? null,
+        ...(assistant.tool_calls ? { tool_calls: assistant.tool_calls } : {}),
+      });
 
       if (assistant.content?.trim()) reply = assistant.content.trim();
 
       const toolCalls = assistant.tool_calls || [];
-      if (!toolCalls.length) break;
+      if (!toolCalls.length) {
+        // Cut off mid-answer: better to say so than to show half a sentence.
+        if (choice.finish_reason === 'length' && !reply) {
+          reply = 'Sorry, mijn antwoord werd afgekapt. Wil je het nog een keer vragen?';
+        }
+        break;
+      }
 
       // Every tool_call must get a matching tool message, or the next request
       // is rejected for an unanswered call.
