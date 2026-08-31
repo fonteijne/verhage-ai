@@ -1,0 +1,138 @@
+# Verhage AI — bestellen via de chat
+
+An agentic ordering interface for the [Verhage Hoofddorp](https://verhage.nl/assortiment/verhage-hoofddorp/1)
+webshop. A guest composes their order by chatting; the agent searches the real
+assortment, fills the cart, and suggests things that go with what they picked.
+
+**It cannot check out.** Not by instruction — by construction. No tool, endpoint
+or UI control exists that places an order or takes a payment.
+
+![chat and cart](docs/screenshot.png)
+
+## What it does
+
+- **Order through chat.** "Ik wil een cheeseburger", "2 frites met mayo",
+  "iets vegetarisch", "haal de cola eruit" — all handled in conversation.
+- **Cross-sells with a reason.** After each change the agent looks for what is
+  missing from the meal (fries, a drink, a sauce, a dessert) or a better-value
+  menu version of a burger, and offers at most two, each with the reason shown.
+  Saying "nee" retires that suggestion for the rest of the session.
+- **Fills the cart, and only the cart.** Every cart change goes through the
+  agent — even the buttons in the UI send a chat message rather than mutating
+  state directly, so the conversation stays the single source of truth.
+- **Never checks out, orders or pays.** See [Guardrails](#guardrails).
+
+## Quick start
+
+```bash
+npm install
+npm run dev          # http://localhost:5173
+```
+
+No API key required — see [The agent](#the-agent).
+
+```bash
+npm test             # 66 tests
+npm run build        # production bundle
+npm start            # serves the built app on :3001
+npm run catalog      # re-scrape the live assortment
+```
+
+## The agent
+
+The agent runs a standard tool-use loop over these eight tools:
+
+| Tool | Purpose |
+| --- | --- |
+| `search_products` | Search by text, category, tag, price, allergens |
+| `get_product` | Full detail for one product |
+| `add_to_cart` | Add a product (with quantity and an optional note) |
+| `update_cart_item` | Change a quantity |
+| `remove_from_cart` | Remove a line |
+| `clear_cart` | Empty the cart |
+| `view_cart` | Read the current order |
+| `suggest_cross_sell` | Ranked, explained cross-sell candidates |
+
+**Two interchangeable implementations drive that same tool set:**
+
+- **Claude** (`server/agent/index.js`) when `ANTHROPIC_API_KEY` is set —
+  `claude-opus-5` by default, at low effort since taking an order is a simple,
+  latency-sensitive task.
+- **A deterministic rule-based agent** (`server/agent/fallback.js`) otherwise.
+  It parses intent, quantities, dietary wishes and yes/no answers with rules
+  instead of a model.
+
+Because both call identical tools, cart behaviour, cross-selling and the
+no-checkout guarantee are identical either way. The fallback is what makes the
+app runnable and fully testable with no credentials — the badge in the header
+shows which one is live.
+
+## Guardrails
+
+The constraint is enforced in four independent places, so no single mistake —
+including a model that decides to be helpful — can produce an order.
+
+1. **No capability exists.** The tool surface has no order, checkout, pickup-time
+   or payment tool. An invented tool call (`place_order`) returns an error
+   explaining the assistant can only compose a basket.
+2. **No endpoint exists.** `/api/checkout`, `/api/order`, `/api/pay` and friends
+   answer `501 not_implemented` rather than 404, so the boundary is deliberate
+   and visible.
+3. **The prompt says so**, and forbids inventing an order number, payment link
+   or confirmation.
+4. **The UI says so.** The checkout button is permanently disabled and explains
+   why; every cart response carries `checkoutAvailable: false`.
+
+`tests/guardrails.test.js` asserts all of it, including that the agent declines
+five different ways of asking to pay while leaving the cart untouched.
+
+## The catalog
+
+`data/catalog.json` holds 200 products across 17 categories, normalised from the
+live storefront by `scripts/build-catalog.mjs`. The site is an Angular app that
+inlines its resolved state in a `<script id="ng-state">` tag, which is where the
+assortment comes from. Three things the raw feed does that the script handles:
+
+- **Configurable products are placeholders.** Burgers and menus ship as a
+  `DUMMY` product whose real name, description, image and *from* price live on
+  the position, with variants behind a lazily-loaded option set. Dropping them
+  would delete the entire Burgers category; they are kept and flagged
+  `priceFrom: true`.
+- **Product ids are reused.** A dozen unrelated sauces share one placeholder id,
+  so a slug (`frites-normaal`) is the stable key and the numeric id is kept only
+  as `sourceId`.
+- **Items are listed more than once.** Bestsellers mirrors other categories, and
+  the Halal category repeats names of regular items — those get a `(halal)`
+  suffix so a genuine variant is not collapsed into the original.
+
+Product options (the drink or sauce choice inside a menu) are fetched per
+product by the real storefront and are not in the payload, so a configurable
+item shows a *vanaf* price and the cart marks the total as an estimate.
+
+Re-run `npm run catalog` to refresh; the shape is asserted by
+`tests/catalog.test.js`.
+
+## Layout
+
+```
+data/catalog.json          normalised assortment (generated)
+scripts/build-catalog.mjs  scraper + normaliser
+server/
+  catalog.js               search and ranking
+  cart.js                  cart state — the only mutable state
+  crosssell.js             cross-sell rules
+  agent/
+    tools.js               the agent's entire capability surface
+    prompt.js              system prompt
+    index.js               Claude tool-use loop
+    fallback.js            rule-based agent (no API key needed)
+  index.js                 HTTP API
+src/                       React chat + cart UI
+tests/                     66 tests
+```
+
+## Notes
+
+This is a demonstration built against a public menu; it is not affiliated with
+Verhage. Prices and assortment are a snapshot of the live site and a *vanaf*
+price is a starting price, not a final one.

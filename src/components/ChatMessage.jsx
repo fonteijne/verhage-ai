@@ -1,0 +1,83 @@
+import { useState } from 'react';
+import ProductCard from './ProductCard.jsx';
+import { euro } from '../lib/api.js';
+
+const KIND_LABEL = {
+  completion: 'maakt het compleet',
+  upgrade: 'upgrade',
+  suggestion: 'aanrader',
+};
+
+export default function ChatMessage({ message, onSend, disabled }) {
+  const [showTrace, setShowTrace] = useState(false);
+  const { role, text, products = [], suggestions = [], events = [] } = message;
+
+  return (
+    <div className={`msg ${role}`}>
+      <div className="bubble">
+        {text.split('\n').map((line, i) => (line ? <p key={i}>{line}</p> : <br key={i} />))}
+      </div>
+
+      {products.length > 0 && (
+        <div className="cards">
+          {products.slice(0, 4).map((p) => (
+            <ProductCard key={p.id} product={p} onSend={onSend} disabled={disabled} />
+          ))}
+        </div>
+      )}
+
+      {suggestions.length > 0 && (
+        <div className="suggestions">
+          <p className="suggestions-title">Past hier goed bij</p>
+          {suggestions.map((s) => (
+            <div key={s.id} className="suggestion">
+              <div>
+                <span className={`kind ${s.kind}`}>{KIND_LABEL[s.kind] || s.kind}</span>
+                <strong>{s.name}</strong> <span className="price">{euro(s.price)}</span>
+                <p className="reason">{s.reason}</p>
+              </div>
+              <div className="suggestion-actions">
+                <button disabled={disabled} onClick={() => onSend(`Ja, doe maar een ${s.name}`)}>
+                  Ja, graag
+                </button>
+                <button
+                  className="ghost"
+                  disabled={disabled}
+                  onClick={() => onSend(`Nee, geen ${s.name}`)}
+                >
+                  Nee
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {events.length > 0 && (
+        <div className="trace">
+          <button className="trace-toggle" onClick={() => setShowTrace((v) => !v)}>
+            {showTrace ? 'Verberg' : 'Toon'} wat de agent deed ({events.length})
+          </button>
+          {showTrace && (
+            <ul>
+              {events.map((e, i) => (
+                <li key={i}>
+                  <code>{e.tool}</code>
+                  <span className="trace-args">{summarizeInput(e.input)}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function summarizeInput(input) {
+  if (!input || !Object.keys(input).length) return '';
+  return Object.entries(input)
+    .filter(([, v]) => v !== undefined && v !== null && String(v).length)
+    .map(([k, v]) => `${k}: ${Array.isArray(v) ? v.join('/') : v}`)
+    .join(' · ');
+}

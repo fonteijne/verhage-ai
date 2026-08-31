@@ -1,0 +1,5633 @@
+{
+  "source": {
+    "url": "https://verhage.nl/assortiment/verhage-hoofddorp/1",
+    "fetchedAt": "2026-08-31T10:26:37.302Z"
+  },
+  "store": {
+    "id": "400434",
+    "name": "Verhage Hoofddorp",
+    "slug": "verhage-hoofddorp",
+    "pickupOnly": true
+  },
+  "categories": [
+    {
+      "id": 322823,
+      "name": "Bestsellers",
+      "slug": "bestsellers",
+      "description": "",
+      "subgroups": []
+    },
+    {
+      "id": 6189,
+      "name": "Menu's",
+      "slug": "menus",
+      "description": "Lekker handig...",
+      "subgroups": [
+        "Menu's",
+        "Burgermenu's"
+      ]
+    },
+    {
+      "id": 6187,
+      "name": "Burgers",
+      "slug": "burgers",
+      "description": "Wilt u frites en salade bij de burger, ga naar menu's en kies daar uw burger",
+      "subgroups": []
+    },
+    {
+      "id": 61106,
+      "name": "Halal",
+      "slug": "halal",
+      "description": "",
+      "subgroups": [
+        "Snacks en burgers",
+        "Menu's"
+      ]
+    },
+    {
+      "id": 6179,
+      "name": "Frites",
+      "slug": "frites",
+      "description": "Bij Verhage hebben we verschillende aardappelproducten, kies jouw favoriet...",
+      "subgroups": [
+        "Loaded Fries",
+        "Frites",
+        "Twisters"
+      ]
+    },
+    {
+      "id": 6183,
+      "name": "Snacks",
+      "slug": "snacks",
+      "description": "Maak een keuze uit de lekkerste snacks, speciaal gemaakt voor Verhage.",
+      "subgroups": [
+        "Snacks",
+        "Snacks op brood"
+      ]
+    },
+    {
+      "id": 328037,
+      "name": "Bites",
+      "slug": "bites",
+      "description": "",
+      "subgroups": [
+        "Bites"
+      ]
+    },
+    {
+      "id": 6191,
+      "name": "Broodjes",
+      "slug": "broodjes",
+      "description": "Heerlijke vers gebakken sandwiches of baguettes.",
+      "subgroups": []
+    },
+    {
+      "id": 328035,
+      "name": "Tosti's",
+      "slug": "tostis",
+      "description": "Heerlijke vers gebakken Tosti's",
+      "subgroups": []
+    },
+    {
+      "id": 326033,
+      "name": "Uitsmijters",
+      "slug": "uitsmijters",
+      "description": "Heerlijke vers gebakken sandwiches of baguettes.",
+      "subgroups": []
+    },
+    {
+      "id": 326037,
+      "name": "Salades",
+      "slug": "salades",
+      "description": "Verse salades gemaakt van een mooie mix van 5 sla soorten, parmezaanse kaas, cherrytomaatjes, komkommer, ei en ...",
+      "subgroups": []
+    },
+    {
+      "id": 322821,
+      "name": "Shakes",
+      "slug": "shakes",
+      "description": "In 4 smaken verkrijgbaar.",
+      "subgroups": []
+    },
+    {
+      "id": 6203,
+      "name": "IJs",
+      "slug": "ijs",
+      "description": "Loeivers ijs van onze ijsboerderij in Overloon.",
+      "subgroups": []
+    },
+    {
+      "id": 176096,
+      "name": "Gebak",
+      "slug": "gebak",
+      "description": "Trakteer jezelf op een lekker toetje en kies en een van onze lekkere sweets!",
+      "subgroups": []
+    },
+    {
+      "id": 324630,
+      "name": "Dranken",
+      "slug": "dranken",
+      "description": "Bestel direct een drankje mee.",
+      "subgroups": []
+    },
+    {
+      "id": 287224,
+      "name": "Sauzen",
+      "slug": "sauzen",
+      "description": "Bestel hier (extra) saus voor bij uw bestelling...",
+      "subgroups": []
+    },
+    {
+      "id": 25751,
+      "name": "Glutenvrij",
+      "slug": "glutenvrij",
+      "description": "Bij Verhage hebben we een aantal producten die wij speciaal inkopen zonder gluten. Heeft u vragen hierover neem contact met ons op.",
+      "subgroups": []
+    }
+  ],
+  "products": [
+    {
+      "id": "kipfilet-bites",
+      "sourceId": 617273,
+      "code": null,
+      "name": "Kipfilet bites",
+      "slug": "kipfilet-bites",
+      "price": 3.9,
+      "priceFrom": true,
+      "description": "Heerlijk malse stukjes 100% pure kipfilet, verborgen in een verrassend dik, ongekend krokant en goudgeel paneerjasje.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-f6ddf519-c5c6-40ef-b3fc-f77f4179f226.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-f6ddf519-c5c6-40ef-b3fc-f77f4179f226.jpg"
+    },
+    {
+      "id": "bitterballen",
+      "sourceId": 617273,
+      "code": null,
+      "name": "Bitterballen",
+      "slug": "bitterballen",
+      "price": 4.3,
+      "priceFrom": true,
+      "description": "De ultieme sfeermakers. Ze zijn perfect goudbruin met een flinterdun krokant korstje en een gloeiend hete, zachte en hartige rundvleesragout van binnen.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294247723378359.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294247723378359.jpg"
+    },
+    {
+      "id": "kipfilet-strips",
+      "sourceId": 617273,
+      "code": null,
+      "name": "Kipfilet strips",
+      "slug": "kipfilet-strips",
+      "price": 5.25,
+      "priceFrom": true,
+      "description": "Echte liefhebbers kiezen deze lange, malse repen van pure kipfilet, omgeven door een stevige, hartige en knapperige korst.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-319a4990-280b-4706-9c5a-cde694f9fcf1.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-319a4990-280b-4706-9c5a-cde694f9fcf1.jpg"
+    },
+    {
+      "id": "kaastengels",
+      "sourceId": 676395,
+      "code": "VHG3000000001",
+      "name": "Kaastengels",
+      "slug": "kaastengels",
+      "price": 5.95,
+      "priceFrom": false,
+      "description": "Breek door het superkrokante, flinterdunne korstje van deze Kaastengels en geniet van de zacht smeltende, hete en licht pittige kaas die heerlijk op je tong vloeit.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites",
+        "Bestsellers"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "cheese",
+        "spicy",
+        "bestseller"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-1c90c150-f5f8-4d12-a7f2-302ff1fef3fb.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-1c90c150-f5f8-4d12-a7f2-302ff1fef3fb.jpg"
+    },
+    {
+      "id": "vlammetjes",
+      "sourceId": 676397,
+      "code": "VHG3000000002",
+      "name": "Vlammetjes",
+      "slug": "vlammetjes",
+      "price": 5.95,
+      "priceFrom": false,
+      "description": "Een flinterdun, extreem krokant loempiajasje verbergt een gloeiend hete, vers bereide en intens gekruide vleesvulling.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-0f8b569f-6ca6-4d3a-83b8-06b74e86d371.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-0f8b569f-6ca6-4d3a-83b8-06b74e86d371.jpg"
+    },
+    {
+      "id": "minisnacks",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Minisnacks",
+      "slug": "minisnacks",
+      "price": 5.95,
+      "priceFrom": true,
+      "description": "Met onze Minisnacks met saus haal je de lekkerste variatie op tafel. Geniet van een goudbruin gefrituurde schaal vol krokante kip nuggets, smeuïge kaassoufflés en pittige bites. Vers bereid en perfect om samen te delen!",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "chicken",
+        "cheese",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294248605300509.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294248605300509.jpg"
+    },
+    {
+      "id": "bitterbucket",
+      "sourceId": 18420,
+      "code": "VHG0000000500",
+      "name": "Bitterbucket",
+      "slug": "bitter-bucket-18-st",
+      "price": 13.5,
+      "priceFrom": false,
+      "description": "Een royale, hete portie perfect goudbruine bitterballen met een zachte, hartige en smeuïge rundvleesragout van binnen.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-054b50cb-acf8-43e9-932c-18403a44e465.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-054b50cb-acf8-43e9-932c-18403a44e465.jpg"
+    },
+    {
+      "id": "kipbucket",
+      "sourceId": 18767,
+      "code": "VHG0000000919",
+      "name": "Kipbucket",
+      "slug": "kipbucket",
+      "price": 15.5,
+      "priceFrom": false,
+      "description": "Het feest kan beginnen! Deze emmer is gevuld met hete, sappige kipsnacks met voor ieder wat wils.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-de4ed028-8c32-4d52-96b4-f166efc5c0c5.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-de4ed028-8c32-4d52-96b4-f166efc5c0c5.jpg"
+    },
+    {
+      "id": "snackbucket",
+      "sourceId": 458998,
+      "code": "VHG0000001996",
+      "name": "Snackbucket",
+      "slug": "snack-bucket",
+      "price": 17.25,
+      "priceFrom": false,
+      "description": "Een kleurrijke mix van onze warmste, meest geliefde snacks. Stuk voor stuk perfect krokant gebakken en boordevol hartige smaken.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-570d88c1-7bde-49f8-bc35-b94d627019b2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-570d88c1-7bde-49f8-bc35-b94d627019b2.jpg"
+    },
+    {
+      "id": "bonelessbucket",
+      "sourceId": 458997,
+      "code": "VHG0000001995",
+      "name": "Bonelessbucket",
+      "slug": "boneless-bucket",
+      "price": 19.95,
+      "priceFrom": false,
+      "description": "Een grote, goedgevulde emmer boordevol malse, botvrije kipstukjes in een onweerstaanbaar, extreem krokant en goudgeel jasje.",
+      "category": "Bites",
+      "categorySlug": "bites",
+      "subgroup": "Bites",
+      "categories": [
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "sharing",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-924247db-37ee-438b-bfa0-9aa789f2b43a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-924247db-37ee-438b-bfa0-9aa789f2b43a.jpg"
+    },
+    {
+      "id": "croissant-roomboter",
+      "sourceId": 18032,
+      "code": "VHG0000000080",
+      "name": "Croissant roomboter",
+      "slug": "croissant",
+      "price": 2.7,
+      "priceFrom": false,
+      "description": "Vers afgebakken en van roomboter.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Noten",
+        "Melk",
+        "Sesamzaad"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-00706fd5-44d1-4061-b57c-fece7c1bfa69.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-00706fd5-44d1-4061-b57c-fece7c1bfa69.jpg"
+    },
+    {
+      "id": "saucijzenbroodje",
+      "sourceId": 18037,
+      "code": "VHG0000000085",
+      "name": "Saucijzenbroodje",
+      "slug": "saucijzen-broodje",
+      "price": 2.95,
+      "priceFrom": false,
+      "description": "Bladerdeeg met heerlijk op smaak gebracht gehakt.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-72876aee-cae9-423d-85e6-510dfa28c280.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-72876aee-cae9-423d-85e6-510dfa28c280.jpg"
+    },
+    {
+      "id": "broodje-jong-belegen-kaas",
+      "sourceId": 18617,
+      "code": "VHG0000000768",
+      "name": "Broodje jong belegen kaas",
+      "slug": "broodje-jong-belegen-kaas",
+      "price": 4.45,
+      "priceFrom": false,
+      "description": "Simpel en altijd goed. Dik belegd met zachte, romige plakken jong belegen kaas.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-1bf46db6-8b5e-414e-bad9-be015c38bebf.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-1bf46db6-8b5e-414e-bad9-be015c38bebf.jpg"
+    },
+    {
+      "id": "broodje-boerenham",
+      "sourceId": 18624,
+      "code": "VHG0000000775",
+      "name": "Broodje boerenham",
+      "slug": "broodje-ham",
+      "price": 4.45,
+      "priceFrom": false,
+      "description": "Rijkelijk belegd met malse, licht gezouten en zachte boerenham voor een subtiele, hartige lunch.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-c6f67867-f14b-4539-b509-3f85bc9f199d.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-c6f67867-f14b-4539-b509-3f85bc9f199d.jpg"
+    },
+    {
+      "id": "broodje-gezond-kip",
+      "sourceId": 18602,
+      "code": "VHG0000000753",
+      "name": "Broodje gezond (kip)",
+      "slug": "broodje-gezond-kip",
+      "price": 5.95,
+      "priceFrom": false,
+      "description": "Boordevol belegd met malse kipfilet, romige jong belegen kaas, een eitje en een royale portie knapperige, frisse groenten.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "vegetarian",
+        "chicken",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ae74884d-5722-4ba3-a6f3-898cdcb1be77.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ae74884d-5722-4ba3-a6f3-898cdcb1be77.jpg"
+    },
+    {
+      "id": "broodje-gezond",
+      "sourceId": 18616,
+      "code": "VHG0000000767",
+      "name": "Broodje gezond",
+      "slug": "broodje-gezond",
+      "price": 5.95,
+      "priceFrom": false,
+      "description": "Boordevol belegd met malse boerenham, romige jong belegen kaas, een eitje en een royale portie knapperige, frisse groenten.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "vegetarian",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4b336fc8-135a-4a6c-a0ff-3dac6b26ffc6.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4b336fc8-135a-4a6c-a0ff-3dac6b26ffc6.jpg"
+    },
+    {
+      "id": "broodje-oude-kaas",
+      "sourceId": 18618,
+      "code": "VHG0000000769",
+      "name": "Broodje oude kaas",
+      "slug": "broodje-oude-kaas",
+      "price": 5.95,
+      "priceFrom": false,
+      "description": "Voor liefhebbers van pit! Belegd met dikke plakken stevige, pittige en intens hartige oude kaas.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese",
+        "spicy"
+      ],
+      "allergens": [
+        "Melk",
+        "Mosterd",
+        "Zwaveldioxide"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3161136d-fcec-445b-99e6-d4561fcf4b90.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3161136d-fcec-445b-99e6-d4561fcf4b90.jpg"
+    },
+    {
+      "id": "broodje-mozzarella",
+      "sourceId": 18880,
+      "code": "VHG9900000042",
+      "name": "Broodje mozzarella",
+      "slug": "broodje-mozzarella",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "Geniet van de pure smaken van tomaat, mozzarella, pesto, en rucola, afgetopt met een heerlijke balsamico glaze.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fbd4bbb0-63c6-4764-8a7a-b282f38c8eb9.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fbd4bbb0-63c6-4764-8a7a-b282f38c8eb9.jpg"
+    },
+    {
+      "id": "broodje-brie",
+      "sourceId": 18628,
+      "code": "VHG0000000779",
+      "name": "Broodje brie",
+      "slug": "broodje-brie-deluxe",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "Belegd met heerlijk dikke plakken zachte, romige en mild-pittige Franse brie, walnoten en honing.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5747e363-c28e-4b07-8ea6-f40c6c162382.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5747e363-c28e-4b07-8ea6-f40c6c162382.jpg"
+    },
+    {
+      "id": "broodje-tonijnsalade",
+      "sourceId": 18622,
+      "code": "VHG0000000773",
+      "name": "Broodje tonijnsalade",
+      "slug": "broodje-tonijn",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "Boordevol rijke, zachte tonijnsalade. Verfrissend, hartig en afgemaakt met onder andere kappertjes en rode ui.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-57b7c439-5ca4-4b86-8693-0e5a619b27c4.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-57b7c439-5ca4-4b86-8693-0e5a619b27c4.jpg"
+    },
+    {
+      "id": "broodje-filet-americain",
+      "sourceId": 18619,
+      "code": "VHG0000000770",
+      "name": "Broodje filet americain",
+      "slug": "broodje-filet-americain",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "Besmeerd met een royale laag koele, zachte en perfect gekruide filet americain. Een hartige verwennerij.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-899ae22c-ce2d-4811-8fa6-a054ce248f3b.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-899ae22c-ce2d-4811-8fa6-a054ce248f3b.jpg"
+    },
+    {
+      "id": "broodje-bal-gehakt",
+      "sourceId": 18584,
+      "code": "VHG0000000735",
+      "name": "Broodje bal gehakt",
+      "slug": "broodje-bal-gehakt-lunch",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "De gehaktbal van Verhage, uit de jus, de bal bestaat uit een mix van rund en varken, uitjes en kruidnagel. Geserveerd op brood naar keuze met sla, komkommer en tomaat.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6bf1fdab-162b-4c9b-8960-39cd68178368.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6bf1fdab-162b-4c9b-8960-39cd68178368.jpg"
+    },
+    {
+      "id": "twee-kroketten-met-brood",
+      "sourceId": 18879,
+      "code": "VHG9900000041",
+      "name": "Twee kroketten met brood",
+      "slug": "broodje-twee-kroketten",
+      "price": 7.4,
+      "priceFrom": false,
+      "description": "Een authentieke lunch. Kies twee van jouw favoriete Verhage kroketten, lekker op vers afgebakken desembrood.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d576210f-bd15-4603-9d2c-814bee900c30.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d576210f-bd15-4603-9d2c-814bee900c30.jpg"
+    },
+    {
+      "id": "club-sandwich-kipfilet",
+      "sourceId": 18777,
+      "code": "VHG0000000929",
+      "name": "Club sandwich kipfilet",
+      "slug": "club-kipfilet",
+      "price": 8.95,
+      "priceFrom": false,
+      "description": "Een luxe, hoog gestapelde sandwich met drie sneden vers afgebakken desembrood. Royaal belegd met malse plakjes kipfilet.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294182193270272.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294182193270272.jpg"
+    },
+    {
+      "id": "broodje-gerookte-zalm",
+      "sourceId": 18683,
+      "code": "VHG0000000834",
+      "name": "Broodje gerookte zalm",
+      "slug": "gerookte-zalm",
+      "price": 8.95,
+      "priceFrom": false,
+      "description": "Met citroenmayo, rucola, rode ui en kappertjes.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-f517e04f-082d-4e0b-bb86-26047528b39c.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-f517e04f-082d-4e0b-bb86-26047528b39c.jpg"
+    },
+    {
+      "id": "broodje-carpaccio",
+      "sourceId": 18671,
+      "code": "VHG0000000822",
+      "name": "Broodje carpaccio",
+      "slug": "broodje-carpaccio",
+      "price": 8.95,
+      "priceFrom": false,
+      "description": "Een absolute traktatie! Rijkelijk belegd met flinterdunne, malse carpaccio, romige truffelmayonaise, knapperige, verse rucola en pijnboompitjes.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4ac47222-3028-45dc-80c1-3727b9892357.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4ac47222-3028-45dc-80c1-3727b9892357.jpg"
+    },
+    {
+      "id": "broodje-kipsate",
+      "sourceId": 18627,
+      "code": "VHG0000000778",
+      "name": "Broodje kipsate",
+      "slug": "broodje-kipsate",
+      "price": 8.95,
+      "priceFrom": false,
+      "description": "Gevuld met de meest malse en perfect gegaarde kip, compleet overgoten met warme, dikke pindasaus.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-7bf8d90d-db7d-4935-906d-eabe161e5e3f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-7bf8d90d-db7d-4935-906d-eabe161e5e3f.jpg"
+    },
+    {
+      "id": "club-sandwich-carpaccio",
+      "sourceId": 542664,
+      "code": "VHG0000002096",
+      "name": "Club sandwich carpaccio",
+      "slug": "club-carpaccio",
+      "price": 10.25,
+      "priceFrom": false,
+      "description": "Drie lagen zacht, vers afgebakken desembrood, torenhoog belegd met malse carpaccio, hartige kaas en frisse, knapperige rucola. De truffelmayo maakt 'm helemaal af!",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ca389a84-4c42-4fbd-b1d1-864ca3246046.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ca389a84-4c42-4fbd-b1d1-864ca3246046.jpg"
+    },
+    {
+      "id": "club-sandwich-zalm",
+      "sourceId": 18778,
+      "code": "VHG0000000930",
+      "name": "Club sandwich zalm",
+      "slug": "club-zalm",
+      "price": 10.25,
+      "priceFrom": false,
+      "description": "Een rijkelijk belegde club sandwich met gerookte zalm, rode ui, sla, tomaat, gekookt ei, komkommer, fritessaus en extra lemon pepper mayo erbij. Geserveerd op vers afgebakken desembrood.",
+      "category": "Broodjes",
+      "categorySlug": "broodjes",
+      "subgroup": null,
+      "categories": [
+        "Broodjes"
+      ],
+      "tags": [
+        "sandwich",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Vis",
+        "Soja",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-311899a3-afe6-4fc0-99ea-0214e35654d7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-311899a3-afe6-4fc0-99ea-0214e35654d7.jpg"
+    },
+    {
+      "id": "kipburger",
+      "sourceId": 709476,
+      "code": null,
+      "name": "Kipburger",
+      "slug": "kipburger",
+      "price": 4.5,
+      "priceFrom": true,
+      "description": "Een burger met kip, Verhage kipburgersaus en frisse slamix.",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-7f4fdb10-b982-42a5-8543-ac26b5539b2f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-7f4fdb10-b982-42a5-8543-ac26b5539b2f.jpg"
+    },
+    {
+      "id": "verhage-classic",
+      "sourceId": 712057,
+      "code": null,
+      "name": "Verhage classic",
+      "slug": "verhage-classic",
+      "price": 4.5,
+      "priceFrom": true,
+      "description": "",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-20fecdbc-02f2-438f-b055-02d37becdaa4.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-20fecdbc-02f2-438f-b055-02d37becdaa4.jpg"
+    },
+    {
+      "id": "cheeseburger",
+      "sourceId": 712056,
+      "code": null,
+      "name": "Cheeseburger",
+      "slug": "cheeseburger",
+      "price": 5.15,
+      "priceFrom": true,
+      "description": "",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-b02df988-5d04-43b7-9a89-ff48108dcf9b.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-b02df988-5d04-43b7-9a89-ff48108dcf9b.jpg"
+    },
+    {
+      "id": "veggie-kipburger",
+      "sourceId": 709477,
+      "code": null,
+      "name": "Veggie kipburger",
+      "slug": "veggie-kipburger",
+      "price": 5.55,
+      "priceFrom": true,
+      "description": "De vegetarische variant van de befaamde Verhage Kipburger. De smaak is nauwelijks van echte kip te onderscheiden!",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main",
+        "vegetarian",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ef463c30-1c3b-4270-93b9-b7349d2e1c56.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ef463c30-1c3b-4270-93b9-b7349d2e1c56.jpg"
+    },
+    {
+      "id": "baconburger",
+      "sourceId": 712055,
+      "code": null,
+      "name": "Baconburger",
+      "slug": "baconburger",
+      "price": 5.55,
+      "priceFrom": true,
+      "description": "",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-38178ebc-6a2e-4461-85c8-2a049fcec470.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-38178ebc-6a2e-4461-85c8-2a049fcec470.jpg"
+    },
+    {
+      "id": "kipfiletburger",
+      "sourceId": 709368,
+      "code": null,
+      "name": "Kipfiletburger",
+      "slug": "kipfiletburger",
+      "price": 5.85,
+      "priceFrom": true,
+      "description": "Een lekkere burger met malse spicy 100% kipfilet, Verhage kipburgersaus, tomaat, komkommer en frisse slamix.",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers",
+        "Bestsellers"
+      ],
+      "tags": [
+        "burger",
+        "main",
+        "chicken",
+        "spicy",
+        "bestseller"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3082ef41-e793-41eb-a8cc-1ad324f8983a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3082ef41-e793-41eb-a8cc-1ad324f8983a.jpg"
+    },
+    {
+      "id": "visburger",
+      "sourceId": 709361,
+      "code": null,
+      "name": "Visburger",
+      "slug": "visburger",
+      "price": 5.85,
+      "priceFrom": true,
+      "description": "Een burger van 125 gram heerlijke MSC gecertificeerde kabeljauwfilet met augurk, frisse slamix en kruidenmayonaise.",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-8ca0287e-14d4-4f51-8c34-c47392e4c0f7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-8ca0287e-14d4-4f51-8c34-c47392e4c0f7.jpg"
+    },
+    {
+      "id": "verhage-double",
+      "sourceId": 712058,
+      "code": null,
+      "name": "Verhage double",
+      "slug": "verhage-double",
+      "price": 6.75,
+      "priceFrom": true,
+      "description": "",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-f9082294-5863-4338-92e6-a693d2cc12ef.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-f9082294-5863-4338-92e6-a693d2cc12ef.jpg"
+    },
+    {
+      "id": "tzatzikiburger",
+      "sourceId": 715691,
+      "code": null,
+      "name": "Tzatzikiburger",
+      "slug": "tzatzikiburger",
+      "price": 6.95,
+      "priceFrom": true,
+      "description": "",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294185351769314.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294185351769314.jpg"
+    },
+    {
+      "id": "steakhouse-burger",
+      "sourceId": 709362,
+      "code": null,
+      "name": "Steakhouse burger",
+      "slug": "steakhouse-burger",
+      "price": 7.7,
+      "priceFrom": true,
+      "description": "Een steenoven gebakken brioche met 150 gram premium beef, gebakken ui, umami saus en rough ketchup.",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2ab37c9f-049d-4d1b-ab22-52facbdaf08e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2ab37c9f-049d-4d1b-ab22-52facbdaf08e.jpg"
+    },
+    {
+      "id": "steakhouse-chicken",
+      "sourceId": 709363,
+      "code": null,
+      "name": "Steakhouse chicken",
+      "slug": "steakhouse-chicken",
+      "price": 7.7,
+      "priceFrom": true,
+      "description": "Een heerlijke Steakhouse Chicken Burger van 100% spicy kipfilet, tomaat, frisse sla, umami saus en rough ketchup op een knapperig broodje.",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-37638e12-7250-4a86-8918-6de62813f6fa.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-37638e12-7250-4a86-8918-6de62813f6fa.jpg"
+    },
+    {
+      "id": "steakhouse-veggie",
+      "sourceId": 709366,
+      "code": null,
+      "name": "Steakhouse veggie",
+      "slug": "steakhouse-veggie",
+      "price": 7.7,
+      "priceFrom": true,
+      "description": "Een spinazie-kaas burger op een steenoven gebakken brioche met tomaat, frisse sla en speciale umami saus en rough ketchup. 100% vega!",
+      "category": "Burgers",
+      "categorySlug": "burgers",
+      "subgroup": null,
+      "categories": [
+        "Burgers"
+      ],
+      "tags": [
+        "burger",
+        "main",
+        "vegetarian",
+        "cheese"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-998e839d-6289-4c66-b5e4-c0de612b078f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-998e839d-6289-4c66-b5e4-c0de612b078f.jpg"
+    },
+    {
+      "id": "aa-drink",
+      "sourceId": 18096,
+      "code": "VHG0000000145",
+      "name": "AA drink",
+      "slug": "aa-drink",
+      "price": 2.35,
+      "priceFrom": false,
+      "description": "AA energiedrank.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638300341334901632.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638300341334901632.jpg"
+    },
+    {
+      "id": "coca-cola",
+      "sourceId": 18073,
+      "code": "VHG0000000122",
+      "name": "Coca cola",
+      "slug": "cola-blik",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "Suikerhoudende koolzuurhoudende frisdrank.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550041631124201.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550041631124201.jpg"
+    },
+    {
+      "id": "cola-zero",
+      "sourceId": 18838,
+      "code": "VHG4004340011",
+      "name": "Cola zero",
+      "slug": "cola-zero-blik",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "Cola zonder suiker.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550041802717527.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550041802717527.jpg"
+    },
+    {
+      "id": "fanta-orange",
+      "sourceId": 18076,
+      "code": "VHG0000000125",
+      "name": "Fanta orange",
+      "slug": "fanta-orange-blik",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "Sinaasappeldrank met koolzuur.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550036959567087.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550036959567087.jpg"
+    },
+    {
+      "id": "fuze-tea-sparkling",
+      "sourceId": 18080,
+      "code": "VHG0000000129",
+      "name": "Fuze tea sparkling",
+      "slug": "lipton-icetea-sparkling",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "IJsthee met citroensmaak en prik.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550045728400385.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550045728400385.jpg"
+    },
+    {
+      "id": "sprite",
+      "sourceId": 18079,
+      "code": "VHG0000000128",
+      "name": "Sprite",
+      "slug": "sprite-blik",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "Frisdrank met citroensmaak. De receptuur is gewijzigd en Sprite bevat geen suiker meer.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550037944565595.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550037944565595.jpg"
+    },
+    {
+      "id": "spa-blauw",
+      "sourceId": 18289,
+      "code": "VHG0000000352",
+      "name": "Spa blauw",
+      "slug": "spa-blauw-pet",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "500 ml water zonder prik.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638300340522258460.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638300340522258460.jpg"
+    },
+    {
+      "id": "spa-rood",
+      "sourceId": 18399,
+      "code": "VHG0000000479",
+      "name": "Spa rood",
+      "slug": "spa-rood-pet",
+      "price": 2.9,
+      "priceFrom": false,
+      "description": "500 ml spa water met prik.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638300340972852234.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638300340972852234.jpg"
+    },
+    {
+      "id": "fuze-tea-green",
+      "sourceId": 18355,
+      "code": "VHG0000000433",
+      "name": "Fuze tea green",
+      "slug": "lipton-icetea-green",
+      "price": 3.3,
+      "priceFrom": false,
+      "description": "Frisdrank op basis van thee zonder koolzuur.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638550046508743914.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638550046508743914.jpg"
+    },
+    {
+      "id": "jus-d-orange",
+      "sourceId": 18340,
+      "code": "VHG0000000415",
+      "name": "Jus d'orange",
+      "slug": "jus-dorange-fles",
+      "price": 4.5,
+      "priceFrom": false,
+      "description": "Verse geperst bij ons in de Store.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294199125075966.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294199125075966.jpg"
+    },
+    {
+      "id": "iced-latte-matcha-strawberry",
+      "sourceId": 691775,
+      "code": "VHG3000000030",
+      "name": "Iced latte matcha strawberry",
+      "slug": "iced-latte-matcha-strawberry",
+      "price": 4.95,
+      "priceFrom": false,
+      "description": "Trakteer jezelf op deze romige en ijskoude droom. Een verfrissende, pastelkleurige mix van zoete aardbei en zachte matcha.",
+      "category": "Dranken",
+      "categorySlug": "dranken",
+      "subgroup": null,
+      "categories": [
+        "Dranken"
+      ],
+      "tags": [
+        "drink"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-98576b86-17d3-4ee2-9df1-07629a9af05e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-98576b86-17d3-4ee2-9df1-07629a9af05e.jpg"
+    },
+    {
+      "id": "frites-normaal",
+      "sourceId": 18692,
+      "code": "VHG0000000843",
+      "name": "Frites normaal",
+      "slug": "frites-normaal-online",
+      "price": 3.2,
+      "priceFrom": false,
+      "description": "Gloeiend heet, perfect goudgeel gebakken en onweerstaanbaar knapperig aan de buitenkant met een zachte, luchtige binnenkant.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Frites",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg"
+    },
+    {
+      "id": "twisters-normaal",
+      "sourceId": 18541,
+      "code": "VHG0000000622",
+      "name": "Twisters normaal",
+      "slug": "twister-frites-normaal",
+      "price": 4.3,
+      "priceFrom": false,
+      "description": "Kruidige, knapperige aardappelkrullen. Heet, vol van smaak en perfect krokant gebakken.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Twisters",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ad3c112c-06cf-4977-b050-0fb256c43c65.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ad3c112c-06cf-4977-b050-0fb256c43c65.jpg"
+    },
+    {
+      "id": "frites-groot",
+      "sourceId": 17956,
+      "code": "VHG0000000003",
+      "name": "Frites groot",
+      "slug": "frites-groot",
+      "price": 4.35,
+      "priceFrom": false,
+      "description": "Gloeiend heet, perfect goudgeel gebakken en onweerstaanbaar knapperig aan de buitenkant met een zachte, luchtige binnenkant.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Frites",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg"
+    },
+    {
+      "id": "twisters-groot",
+      "sourceId": 18542,
+      "code": "VHG0000000623",
+      "name": "Twisters groot",
+      "slug": "twister-frites-groot",
+      "price": 5.45,
+      "priceFrom": false,
+      "description": "Kruidige, knapperige aardappelkrullen. Heet, vol van smaak en perfect krokant gebakken.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Twisters",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ad3c112c-06cf-4977-b050-0fb256c43c65.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ad3c112c-06cf-4977-b050-0fb256c43c65.jpg"
+    },
+    {
+      "id": "loaded-fries-truffel",
+      "sourceId": 460382,
+      "code": "VHG0000002005",
+      "name": "Loaded fries truffel",
+      "slug": "loaded-fries-truffel",
+      "price": 6.95,
+      "priceFrom": false,
+      "description": "Pure luxe in een bakje. Krokante, goudgele frites worden rijkelijk bedekt met zijdezachte truffelmayonaise en zacht smeltende kaas. Afgetopt met frisse rucola.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Loaded Fries",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side",
+        "loaded",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-f112f8c7-ad13-4ae8-b13d-ead1f1e10296.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-f112f8c7-ad13-4ae8-b13d-ead1f1e10296.jpg"
+    },
+    {
+      "id": "loaded-fries-stoof",
+      "sourceId": 18770,
+      "code": "VHG0000000922",
+      "name": "Loaded fries stoof",
+      "slug": "frites-stoofvlees",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Verwarm jezelf met deze knapperige frites, royaal overgoten met boterzacht, langzaam gegaard stoofvlees in een rijke, donkere saus.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Loaded Fries",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side",
+        "loaded"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-c11590bd-787d-4642-9381-47bbf27e55fa.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-c11590bd-787d-4642-9381-47bbf27e55fa.jpg"
+    },
+    {
+      "id": "loaded-fries-tzatziki",
+      "sourceId": 460943,
+      "code": "VHG0000002010",
+      "name": "Loaded fries tzatziki",
+      "slug": "loaded-fries-tzatziki",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Luxe frites met kipfilet bites, frisse komkommer en gesneden tomaat met daarop tzatzikisaus en paprikamarinati.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Loaded Fries",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side",
+        "loaded",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-653751c9-f5ce-46b9-85be-2b37114b7eec.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-653751c9-f5ce-46b9-85be-2b37114b7eec.jpg"
+    },
+    {
+      "id": "loaded-fries-spicy-chicken",
+      "sourceId": 660011,
+      "code": "VHG0000002265",
+      "name": "Loaded fries spicy chicken",
+      "slug": "loaded-fries-spicy-chicken",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Zet je schrap voor een waanzinnige smaakexplosie. Gloeiend hete, krokante frites bedolven onder malse kipstukjes, een pittige mayo en sweet chili.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Loaded Fries",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side",
+        "loaded",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3d3f6947-31e0-440a-be76-e968c7a33a7e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3d3f6947-31e0-440a-be76-e968c7a33a7e.jpg"
+    },
+    {
+      "id": "gezinsbox-frites",
+      "sourceId": 17958,
+      "code": "VHG0000000005",
+      "name": "Gezinsbox frites",
+      "slug": "gezinsbox-frites",
+      "price": 8.75,
+      "priceFrom": false,
+      "description": "Maak het extra sfeervol thuis met deze royale box (3 porties) vol gloeiend hete, krokante frites. Ideaal om samen de lekkere trek te stillen.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Frites",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6a0bb75f-6893-4e5b-ae4b-424f664f6615.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6a0bb75f-6893-4e5b-ae4b-424f664f6615.jpg"
+    },
+    {
+      "id": "gezinsbox-twisters",
+      "sourceId": 18544,
+      "code": "VHG0000000625",
+      "name": "Gezinsbox twisters",
+      "slug": "gezinsbox-twister",
+      "price": 9.95,
+      "priceFrom": false,
+      "description": "Deel de pret met het hele gezin. Een grote box (3 porties) vol krokante, warme en hartig gekruide aardappelkrullen.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Twisters",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-cf2c6088-8415-4021-8b29-f3a7bfa132f2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-cf2c6088-8415-4021-8b29-f3a7bfa132f2.jpg"
+    },
+    {
+      "id": "familiebox-frites",
+      "sourceId": 17959,
+      "code": "VHG0000000006",
+      "name": "Familiebox frites",
+      "slug": "familiebox-frites",
+      "price": 12.25,
+      "priceFrom": false,
+      "description": "Voor de écht grote trek is er de Familiebox frites. Vijf volle porties van onze gloeiend hete, krokante frites!",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Frites",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ce4f476f-d8bb-49f5-9f4a-872e6554b1bf.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ce4f476f-d8bb-49f5-9f4a-872e6554b1bf.jpg"
+    },
+    {
+      "id": "familiebox-twisters",
+      "sourceId": 18545,
+      "code": "VHG0000000626",
+      "name": "Familiebox twisters",
+      "slug": "familiebox-twister",
+      "price": 13.25,
+      "priceFrom": false,
+      "description": "Een onweerstaanbare berg (5 porties) van onze knapperige, goudbruine en kruidige gekrulde aardappels voor iedereen aan tafel.",
+      "category": "Frites",
+      "categorySlug": "frites",
+      "subgroup": "Twisters",
+      "categories": [
+        "Frites"
+      ],
+      "tags": [
+        "fries",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-f4437791-e007-485d-9584-94f5f43d7229.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-f4437791-e007-485d-9584-94f5f43d7229.jpg"
+    },
+    {
+      "id": "banaan-toffee-muffin",
+      "sourceId": 18284,
+      "code": "VHG0000000346",
+      "name": "Banaan Toffee Muffin",
+      "slug": "banaan-toffee-muffin",
+      "price": 2.95,
+      "priceFrom": false,
+      "description": "WOW, caramel in cominatie banaan.",
+      "category": "Gebak",
+      "categorySlug": "gebak",
+      "subgroup": null,
+      "categories": [
+        "Gebak"
+      ],
+      "tags": [
+        "dessert",
+        "sweet"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-9e0849c3-6a2c-4876-bc18-5da131e48621.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-9e0849c3-6a2c-4876-bc18-5da131e48621.jpg"
+    },
+    {
+      "id": "chocolade-muffin",
+      "sourceId": 18283,
+      "code": "VHG0000000345",
+      "name": "Chocolade Muffin",
+      "slug": "chocolade-muffin",
+      "price": 2.95,
+      "priceFrom": false,
+      "description": "Dubbel chocolade, dubbel lekker.",
+      "category": "Gebak",
+      "categorySlug": "gebak",
+      "subgroup": null,
+      "categories": [
+        "Gebak"
+      ],
+      "tags": [
+        "dessert",
+        "sweet"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ee5cbb0c-c91f-43a4-b847-f2205ecb601a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ee5cbb0c-c91f-43a4-b847-f2205ecb601a.jpg"
+    },
+    {
+      "id": "dudok-appeltaart",
+      "sourceId": 501637,
+      "code": "VHG0000002025",
+      "name": "Dudok Appeltaart",
+      "slug": "dudok-appeltaart",
+      "price": 3.5,
+      "priceFrom": false,
+      "description": "Onze appeltaart van de bekende patisserie Dudok uit Rotterdam.",
+      "category": "Gebak",
+      "categorySlug": "gebak",
+      "subgroup": null,
+      "categories": [
+        "Gebak"
+      ],
+      "tags": [
+        "dessert",
+        "sweet"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4361b9b7-b729-4974-8087-4cc742238ca7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4361b9b7-b729-4974-8087-4cc742238ca7.jpg"
+    },
+    {
+      "id": "dudok-red-velvet",
+      "sourceId": 61569,
+      "code": "VHG0000000944",
+      "name": "Dudok Red Velvet",
+      "slug": "red-velvet-cake",
+      "price": 4.5,
+      "priceFrom": false,
+      "description": "Heerlijke laagjes cake van de befaamde patisserie Dudok uit Rotterdam.",
+      "category": "Gebak",
+      "categorySlug": "gebak",
+      "subgroup": null,
+      "categories": [
+        "Gebak"
+      ],
+      "tags": [
+        "dessert",
+        "sweet"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-a36905ff-b670-4fb6-9bf4-54125a5fd7fa.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-a36905ff-b670-4fb6-9bf4-54125a5fd7fa.jpg"
+    },
+    {
+      "id": "dudok-cheesecake",
+      "sourceId": 173068,
+      "code": "VHG0000001551",
+      "name": "Dudok Cheesecake",
+      "slug": "cheesecake",
+      "price": 4.5,
+      "priceFrom": false,
+      "description": "De originele New York style baked cheesecake. De kruimelbodem is gemaakt van biscuit en daarop volgt echte roomkaas, met saus naar keuze en oreo topping.",
+      "category": "Gebak",
+      "categorySlug": "gebak",
+      "subgroup": null,
+      "categories": [
+        "Gebak"
+      ],
+      "tags": [
+        "dessert",
+        "sweet"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-74cf1056-6a23-4370-8be6-7582f99e0188.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-74cf1056-6a23-4370-8be6-7582f99e0188.jpg"
+    },
+    {
+      "id": "fles-fritessaus-glutenvrij",
+      "sourceId": 189757,
+      "code": "VHG0000001583",
+      "name": "Fles fritessaus (glutenvrij)",
+      "slug": "knijpfles-fritessaus-glutenvrij",
+      "price": 2.5,
+      "priceFrom": false,
+      "description": "Ook de originele Verhage fritessaus is zonder gluten.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree"
+      ],
+      "allergens": [
+        "Ei",
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-c79fd8e6-db33-45ae-a026-23162dbbffd4.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-c79fd8e6-db33-45ae-a026-23162dbbffd4.jpg"
+    },
+    {
+      "id": "frikadel-glutenvrij",
+      "sourceId": 18362,
+      "code": "VHG0000000441",
+      "name": "Frikadel (glutenvrij)",
+      "slug": "frikadel-glutenarm",
+      "price": 2.7,
+      "priceFrom": false,
+      "description": "Speciale frikadel zonder gluten in aparte pan gebakken.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree"
+      ],
+      "allergens": [
+        "Soja"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-9bc38197-81ec-4108-8de9-723e97152a58.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-9bc38197-81ec-4108-8de9-723e97152a58.jpg"
+    },
+    {
+      "id": "kroket-glutenvrij",
+      "sourceId": 18363,
+      "code": "VHG0000000442",
+      "name": "Kroket (glutenvrij)",
+      "slug": "kroket-glutenarm",
+      "price": 2.7,
+      "priceFrom": false,
+      "description": "Speciale rundvleeskroket zonder gluten in aparte pan gebakken.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree"
+      ],
+      "allergens": [
+        "Selderij",
+        "Mosterd",
+        "Lupine"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fc67bb77-e478-426e-8102-831223445214.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fc67bb77-e478-426e-8102-831223445214.jpg"
+    },
+    {
+      "id": "kaassouffle-glutenvrij",
+      "sourceId": 59047,
+      "code": "VHG0000001111",
+      "name": "Kaassouffle (Glutenvrij)",
+      "slug": "kaassouffle-glutenvrij",
+      "price": 2.7,
+      "priceFrom": false,
+      "description": "Speciale kaassoufle zonder gluten in aparte pan gebakken.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree",
+        "cheese"
+      ],
+      "allergens": [
+        "Ei",
+        "Soja",
+        "Melk",
+        "Lupine"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294245759473559.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294245759473559.jpg"
+    },
+    {
+      "id": "frites-glutenvrij",
+      "sourceId": 18630,
+      "code": "VHG0000000781",
+      "name": "Frites (Glutenvrij)",
+      "slug": "frites-glutenvrij",
+      "price": 3.2,
+      "priceFrom": false,
+      "description": "Een middel portie frites zonder gluten. In aparte pan gebakken.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-db7eacd6-5b9e-4fa9-9c4c-3c3c1f5b16b0.jpg"
+    },
+    {
+      "id": "kip-nuggets-glutenvrij",
+      "sourceId": 18364,
+      "code": "VHG0000000443",
+      "name": "Kip nuggets (glutenvrij)",
+      "slug": "kipnuggets-glutenarm",
+      "price": 4.35,
+      "priceFrom": false,
+      "description": "6 kip nuggets zonder gluten in aparte pan gebakken.",
+      "category": "Glutenvrij",
+      "categorySlug": "glutenvrij",
+      "subgroup": null,
+      "categories": [
+        "Glutenvrij"
+      ],
+      "tags": [
+        "glutenfree",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-46703e46-fdb3-4668-b761-0927ec1adbe2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-46703e46-fdb3-4668-b761-0927ec1adbe2.jpg"
+    },
+    {
+      "id": "kipkroket-halal",
+      "sourceId": 188619,
+      "code": "VHG0000001566",
+      "name": "Kipkroket (halal)",
+      "slug": "kip-kroket-halal",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Heerlijke kroket met een kruidige ragout van kip.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg"
+    },
+    {
+      "id": "kipkrokant-halal",
+      "sourceId": 188635,
+      "code": "VHG0000001576",
+      "name": "Kipkrokant (halal)",
+      "slug": "kipkrokant-halal",
+      "price": 3,
+      "priceFrom": false,
+      "description": "Een malse, zachte kipsnack die wordt beschermd door een extreem krokant, luchtig en goudbruin gebakken jasje.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg"
+    },
+    {
+      "id": "mexicano-halal",
+      "sourceId": 18769,
+      "code": "VHG0000000921",
+      "name": "Mexicano (halal)",
+      "slug": "mexicano-halal",
+      "price": 3.3,
+      "priceFrom": false,
+      "description": "De klassieker onder de snacks, gemaakt van rund en kip. Extra lekker met pindasaus!",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg"
+    },
+    {
+      "id": "baconburger-halal",
+      "sourceId": 189772,
+      "code": "VHG0000001589",
+      "name": "Baconburger (halal)",
+      "slug": "bacon-burger-halal",
+      "price": 5.4,
+      "priceFrom": false,
+      "description": "Een halal hamburger met kalkoenbacon strips, cheddar kaas, tomaat, slamix en smokey BBQ-saus geserveerd met frites en salade.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "burger",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-38178ebc-6a2e-4461-85c8-2a049fcec470.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-38178ebc-6a2e-4461-85c8-2a049fcec470.jpg"
+    },
+    {
+      "id": "kipfiletburger-halal",
+      "sourceId": 712683,
+      "code": null,
+      "name": "Kipfiletburger (halal)",
+      "slug": "kipfiletburger-halal",
+      "price": 5.85,
+      "priceFrom": true,
+      "description": "Een lekkere burger met malse spicy 100% kipfilet, Verhage kipburgersaus, tomaat, komkommer en frisse slamix.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "burger",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3082ef41-e793-41eb-a8cc-1ad324f8983a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3082ef41-e793-41eb-a8cc-1ad324f8983a.jpg"
+    },
+    {
+      "id": "kipsate-halal",
+      "sourceId": 188626,
+      "code": "VHG0000001570",
+      "name": "Kipsate (halal)",
+      "slug": "kip-sate-halal",
+      "price": 6.6,
+      "priceFrom": false,
+      "description": "De aller-malste, perfect gemarineerde kip van onze slager. Royaal bedekt met een dikke, warme en intens kruidige pindasaus, gebakken uitjes en cassave.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-1bab3e78-4b1f-41ef-83a7-b5030c06c103.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-1bab3e78-4b1f-41ef-83a7-b5030c06c103.jpg"
+    },
+    {
+      "id": "kipschnitzel-halal",
+      "sourceId": 188638,
+      "code": "VHG0000001578",
+      "name": "Kipschnitzel (halal)",
+      "slug": "kipschnitzel-halal",
+      "price": 7.1,
+      "priceFrom": false,
+      "description": "Een grote, malse Kipschnitzel met een extreem krokant, luchtig paneerkorstje voor die ultieme, stevige crunch.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5815b1ba-8d47-4ee7-8b8b-c14578d00c1a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5815b1ba-8d47-4ee7-8b8b-c14578d00c1a.jpg"
+    },
+    {
+      "id": "steakhouse-burger-halal",
+      "sourceId": 712681,
+      "code": null,
+      "name": "Steakhouse burger (halal)",
+      "slug": "steakhouse-burger-halal",
+      "price": 7.7,
+      "priceFrom": true,
+      "description": "Een steenoven gebakken brioche met 150 gram premium beef, gebakken ui, umami saus en rough ketchup.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "burger"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2ab37c9f-049d-4d1b-ab22-52facbdaf08e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2ab37c9f-049d-4d1b-ab22-52facbdaf08e.jpg"
+    },
+    {
+      "id": "steakhouse-chicken-halal",
+      "sourceId": 712682,
+      "code": null,
+      "name": "Steakhouse chicken (halal)",
+      "slug": "steakhouse-chicken-halal",
+      "price": 7.7,
+      "priceFrom": true,
+      "description": "Een heerlijke Steakhouse Chicken Burger van 100% spicy kipfilet, tomaat, frisse sla, umami saus en rough ketchup op een knapperig broodje",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Snacks en burgers",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-37638e12-7250-4a86-8918-6de62813f6fa.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-37638e12-7250-4a86-8918-6de62813f6fa.jpg"
+    },
+    {
+      "id": "kip-nuggetsmenu-halal",
+      "sourceId": 715587,
+      "code": null,
+      "name": "Kip nuggetsmenu (halal)",
+      "slug": "kip-nuggetsmenu-halal",
+      "price": 9.6,
+      "priceFrom": true,
+      "description": "Kipnuggets met barbecue of zoetzure saus geserveerd met frites en salade.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-8e16f4cb-9c69-4351-8eef-dcb3c707ce87.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-8e16f4cb-9c69-4351-8eef-dcb3c707ce87.jpg"
+    },
+    {
+      "id": "snackmenu-halal",
+      "sourceId": 189756,
+      "code": "VHG0000001582",
+      "name": "Snackmenu (halal)",
+      "slug": "snackmenu-halal",
+      "price": 9.9,
+      "priceFrom": false,
+      "description": "Voor ieder wat wils. Kies uit verschillende halalsnacks. Kies er twee.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu"
+      ],
+      "allergens": [
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-934dc429-4c83-4ad6-922e-ff264409d42d.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-934dc429-4c83-4ad6-922e-ff264409d42d.jpg"
+    },
+    {
+      "id": "kipkluifjes-menu-halal",
+      "sourceId": 713865,
+      "code": null,
+      "name": "Kipkluifjes menu (halal)",
+      "slug": "kipkluifjes-menu-halal",
+      "price": 10.2,
+      "priceFrom": true,
+      "description": "Heerlijk gemarineerde en gepaneerde kippenvleugels, geserveerd met frites en salade. Daar eet je je vingers bij op!",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-a3469a28-0896-4d8f-bbc1-c0c65e56c7e6.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-a3469a28-0896-4d8f-bbc1-c0c65e56c7e6.jpg"
+    },
+    {
+      "id": "kipfilet-strips-menu-halal",
+      "sourceId": 713866,
+      "code": null,
+      "name": "Kipfilet strips menu (halal)",
+      "slug": "kipfilet-strips-menu-halal",
+      "price": 10.5,
+      "priceFrom": true,
+      "description": "Echte liefhebbers kiezen deze lange, malse repen van pure kipfilet, omgeven door een stevige, hartige en knapperige korst.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-b65b89a8-71a0-4938-b982-59a016ab8f86.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-b65b89a8-71a0-4938-b982-59a016ab8f86.jpg"
+    },
+    {
+      "id": "kipfiletburgermenu-halal",
+      "sourceId": 189769,
+      "code": "VHG0000001586",
+      "name": "Kipfiletburgermenu (halal)",
+      "slug": "kipfiletburgermenu-halal",
+      "price": 11.1,
+      "priceFrom": false,
+      "description": "Een malse spicy kipfiletburger (halal), geserveerd met frites en salade.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "burger",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-bd437df4-ff15-433a-a9dd-29d021401fbd.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-bd437df4-ff15-433a-a9dd-29d021401fbd.jpg"
+    },
+    {
+      "id": "steakhouse-chickenmenu-halal",
+      "sourceId": 189778,
+      "code": "VHG0000001594",
+      "name": "Steakhouse chickenmenu (halal)",
+      "slug": "steakhouse-chicken-menu-halal",
+      "price": 12.85,
+      "priceFrom": false,
+      "description": "Een heerlijke Steakhouse Chicken Burger van 100% spicy kipfilet, tomaat, frisse sla, umami mayonaise en rough ketchup op een knapperig broodje geserveerd met frites en salade.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-a3eb5107-996b-42d4-9330-980081b459e2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-a3eb5107-996b-42d4-9330-980081b459e2.jpg"
+    },
+    {
+      "id": "steakhouse-rundvleesburgermenu-halal",
+      "sourceId": 189773,
+      "code": "VHG0000001590",
+      "name": "Steakhouse rundvleesburgermenu (halal)",
+      "slug": "steakhouse-rundvleesburger-menu-halal",
+      "price": 12.85,
+      "priceFrom": false,
+      "description": "Een steenoven gebakken brioche met 150 gram premium beef, gebakken ui, umami mayo en rough ketchup. Geserveerd met frites en salade.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "burger"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-8aacb0a6-4f04-4975-a83f-ef6347f5e770.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-8aacb0a6-4f04-4975-a83f-ef6347f5e770.jpg"
+    },
+    {
+      "id": "kipsate-menu-halal",
+      "sourceId": 189770,
+      "code": "VHG0000001587",
+      "name": "Kipsate menu (halal)",
+      "slug": "kipsate-menu-halal",
+      "price": 12.95,
+      "priceFrom": false,
+      "description": "De aller-malste, perfect gemarineerde kip van onze slager. Royaal bedekt met een dikke, warme en intens kruidige pindasaus, gebakken uitjes en cassave.",
+      "category": "Halal",
+      "categorySlug": "halal",
+      "subgroup": "Menu's",
+      "categories": [
+        "Halal"
+      ],
+      "tags": [
+        "halal",
+        "main",
+        "menu",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-a56e9d73-cc90-41c8-b6f7-0150eb23d9b0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-a56e9d73-cc90-41c8-b6f7-0150eb23d9b0.jpg"
+    },
+    {
+      "id": "slush",
+      "sourceId": 662954,
+      "code": null,
+      "name": "Slush",
+      "slug": "slush",
+      "price": 1.45,
+      "priceFrom": true,
+      "description": "Ijsdrank van water en siroop",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-72d472d2-fb3c-428d-8a42-36f4ad7d230f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-72d472d2-fb3c-428d-8a42-36f4ad7d230f.jpg"
+    },
+    {
+      "id": "ola-raket",
+      "sourceId": 18060,
+      "code": "VHG0000000108",
+      "name": "Ola raket",
+      "slug": "ola-raket",
+      "price": 1.6,
+      "priceFrom": false,
+      "description": "Waterijsje uit de collectie van Ola®. De combinatie van ananas, framboos en sinaasappel verveelt nooit!",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294203659673547.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294203659673547.jpg"
+    },
+    {
+      "id": "slice",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Slice",
+      "slug": "slice",
+      "price": 2.25,
+      "priceFrom": true,
+      "description": "",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e13b6a48-0cd8-4e9a-98dd-d2092b9cd85f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e13b6a48-0cd8-4e9a-98dd-d2092b9cd85f.jpg"
+    },
+    {
+      "id": "ola-twister",
+      "sourceId": 18061,
+      "code": "VHG0000000109",
+      "name": "Ola twister",
+      "slug": "ola-twister",
+      "price": 2.45,
+      "priceFrom": false,
+      "description": "Met de smaak van ananas, citroen en aardbeien!",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294204196341973.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294204196341973.jpg"
+    },
+    {
+      "id": "sundae",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Sundae",
+      "slug": "sundae",
+      "price": 2.85,
+      "priceFrom": true,
+      "description": "Romig softijs met smaak naar keuze!",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-031140bb-b216-4585-8e86-b7f67458d7d6.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-031140bb-b216-4585-8e86-b7f67458d7d6.jpg"
+    },
+    {
+      "id": "twist",
+      "sourceId": 18059,
+      "code": "VHG0000000107",
+      "name": "Twist",
+      "slug": "twist",
+      "price": 3.75,
+      "priceFrom": false,
+      "description": "Create your own Twist! Kies zelf je topping en saus.",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs",
+        "Bestsellers"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice",
+        "bestseller"
+      ],
+      "allergens": [
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5d2800f9-24ea-49b5-92c6-2553a3b05bc7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5d2800f9-24ea-49b5-92c6-2553a3b05bc7.jpg"
+    },
+    {
+      "id": "caffe-icecream",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Caffe icecream",
+      "slug": "caffe-icecream",
+      "price": 4.45,
+      "priceFrom": true,
+      "description": "Verfrissende mix van koffie en softijs",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-dc5bb558-24d8-40b8-bd20-5586860883bd.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-dc5bb558-24d8-40b8-bd20-5586860883bd.jpg"
+    },
+    {
+      "id": "bak-schepijs-6-bollen",
+      "sourceId": 349494,
+      "code": "VHG0000001906",
+      "name": "Bak Schepijs 6 Bollen",
+      "slug": "bak-schepijs-6-bollen",
+      "price": 8.7,
+      "priceFrom": false,
+      "description": "Handig voor thuis! 6 bollen ambachtelijk ijs. Kies in de Store jouw favoriete smaak.",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-637398261385897850.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-637398261385897850.jpg"
+    },
+    {
+      "id": "bak-schepijs-12-bollen",
+      "sourceId": 349495,
+      "code": "VHG0000001907",
+      "name": "Bak Schepijs 12 Bollen",
+      "slug": "bak-schepijs-12-bollen",
+      "price": 14.85,
+      "priceFrom": false,
+      "description": "Handig voor thuis! 12 bollen ambachtelijk ijs. Kies in de Store jouw favoriete smaak.",
+      "category": "IJs",
+      "categorySlug": "ijs",
+      "subgroup": null,
+      "categories": [
+        "IJs"
+      ],
+      "tags": [
+        "dessert",
+        "sweet",
+        "ice"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-637398261386679163.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-637398261386679163.jpg"
+    },
+    {
+      "id": "junior-meal",
+      "sourceId": 17978,
+      "code": "VHG0000000025",
+      "name": "Junior meal",
+      "slug": "junior-meal",
+      "price": 5.45,
+      "priceFrom": false,
+      "description": "Frites, appelmoes, drankje, leuke verrassing en (nog niet inbegrepen) een lekkere snack of burger.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-c54cf660-7383-4307-8b1b-6f883e010106.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-c54cf660-7383-4307-8b1b-6f883e010106.jpg"
+    },
+    {
+      "id": "kip-nuggetmenu",
+      "sourceId": 20240,
+      "code": "VHG0000000020",
+      "name": "Kip nuggetmenu",
+      "slug": "nugget-menu",
+      "price": 9.6,
+      "priceFrom": false,
+      "description": "Kipnuggets met barbecue of zoetzure saus geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-8e16f4cb-9c69-4351-8eef-dcb3c707ce87.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-8e16f4cb-9c69-4351-8eef-dcb3c707ce87.jpg"
+    },
+    {
+      "id": "kipburgermenu",
+      "sourceId": 17968,
+      "code": "VHG0000000015",
+      "name": "Kipburgermenu",
+      "slug": "kipburger-menu",
+      "price": 9.75,
+      "priceFrom": false,
+      "description": "Een burger met kip, Verhage kipburgersaus en frisse sla geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-70ab6dbe-6002-4727-8bc2-148175654357.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-70ab6dbe-6002-4727-8bc2-148175654357.jpg"
+    },
+    {
+      "id": "verhage-classicmenu",
+      "sourceId": 17966,
+      "code": "VHG0000000013",
+      "name": "Verhage classicmenu",
+      "slug": "hamburger-menu",
+      "price": 9.75,
+      "priceFrom": false,
+      "description": "Onze klassieke hamburger. Een flame-grilled burger met 100% puur rundvlees, ketchup en frisse sla geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3c434fa5-3702-4056-b6d3-31d5faab6dab.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3c434fa5-3702-4056-b6d3-31d5faab6dab.jpg"
+    },
+    {
+      "id": "snackmenu",
+      "sourceId": 17971,
+      "code": "VHG0000000018",
+      "name": "Snackmenu",
+      "slug": "snack-menu",
+      "price": 9.9,
+      "priceFrom": false,
+      "description": "Combineer twee van jouw favoriete snacks samen met een portie knapperige frites en frisse salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-934dc429-4c83-4ad6-922e-ff264409d42d.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-934dc429-4c83-4ad6-922e-ff264409d42d.jpg"
+    },
+    {
+      "id": "kipkluifjesmenu",
+      "sourceId": 688282,
+      "code": null,
+      "name": "Kipkluifjesmenu",
+      "slug": "kipkluifjesmenu",
+      "price": 10.2,
+      "priceFrom": true,
+      "description": "Heerlijk gemarineerde en gepaneerde kippenvleugels, geserveerd met frites en salade. Daar eet je je vingers bij op!",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294241043731336.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294241043731336.jpg"
+    },
+    {
+      "id": "cheeseburgermenu",
+      "sourceId": 17967,
+      "code": "VHG0000000014",
+      "name": "Cheeseburgermenu",
+      "slug": "cheeseburger-menu",
+      "price": 10.4,
+      "priceFrom": false,
+      "description": "Een flame-grilled hamburger met 100% puur rundvlees, cheddar kaas, ketchup en frisse sla geserveerd met frites en salade. Say cheese!",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-1f489f68-1d76-42ac-b77e-cde01aa19138.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-1f489f68-1d76-42ac-b77e-cde01aa19138.jpg"
+    },
+    {
+      "id": "kipfilet-strips-menu",
+      "sourceId": 713862,
+      "code": null,
+      "name": "Kipfilet strips menu",
+      "slug": "kipfilet-strips-menu",
+      "price": 10.5,
+      "priceFrom": true,
+      "description": "Echte liefhebbers kiezen deze lange, malse repen van pure kipfilet, omgeven door een stevige, hartige en knapperige korst.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-b65b89a8-71a0-4938-b982-59a016ab8f86.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-b65b89a8-71a0-4938-b982-59a016ab8f86.jpg"
+    },
+    {
+      "id": "berenklauwmenu",
+      "sourceId": 17977,
+      "code": "VHG0000000024",
+      "name": "Berenklauwmenu",
+      "slug": "berenklauw-menu",
+      "price": 10.75,
+      "priceFrom": false,
+      "description": "Een stoere maaltijd voor de grote trek. Hartige, stevige gehaktschijven afgewisseld met zoete uienringen.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-edb7a041-9166-4e43-a69c-043bc6b7cb8c.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-edb7a041-9166-4e43-a69c-043bc6b7cb8c.jpg"
+    },
+    {
+      "id": "loempiamenu",
+      "sourceId": 20241,
+      "code": "VHG0000000028",
+      "name": "Loempiamenu",
+      "slug": "loempia-menu",
+      "price": 10.8,
+      "priceFrom": false,
+      "description": "Kiploempia van 200 gram geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-ad24cdc5-947f-42fb-918b-acd75cd39834.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-ad24cdc5-947f-42fb-918b-acd75cd39834.jpg"
+    },
+    {
+      "id": "baconburgermenu",
+      "sourceId": 18257,
+      "code": "VHG0000000316",
+      "name": "Baconburgermenu",
+      "slug": "baconburger-menu",
+      "price": 10.8,
+      "priceFrom": false,
+      "description": "Een hamburger met knapperige bacon strips, pittige kaas, tomaat, sla en smokey barbecue saus geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "cheese",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-189da662-80a7-4f7a-8cb7-7750ac6dfc29.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-189da662-80a7-4f7a-8cb7-7750ac6dfc29.jpg"
+    },
+    {
+      "id": "veggie-kipburgermenu",
+      "sourceId": 173064,
+      "code": "VHG0000001550",
+      "name": "Veggie kipburgermenu",
+      "slug": "geen-kipburger-menu",
+      "price": 10.8,
+      "priceFrom": false,
+      "description": "De vegetarische variant van de befaamde Verhage Kipburger. De smaak is nauwelijks van echte kip te onderscheiden! Geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "vegetarian",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-b0818e10-8bf4-4bd0-b4bd-d08cf6aa85ea.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-b0818e10-8bf4-4bd0-b4bd-d08cf6aa85ea.jpg"
+    },
+    {
+      "id": "kipfiletburgermenu",
+      "sourceId": 20239,
+      "code": "VHG0000000011",
+      "name": "Kipfiletburgermenu",
+      "slug": "kipfiletburger-menu",
+      "price": 11.1,
+      "priceFrom": false,
+      "description": "Een malse spicy kipfiletburger, geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-497b727d-b0bd-40b1-b0c1-7d4437459799.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-497b727d-b0bd-40b1-b0c1-7d4437459799.jpg"
+    },
+    {
+      "id": "visburgermenu",
+      "sourceId": 17965,
+      "code": "VHG0000000012",
+      "name": "Visburgermenu",
+      "slug": "visburger-menu",
+      "price": 11.1,
+      "priceFrom": false,
+      "description": "Een burger van 125 gram heerlijke MSC gecertificeerde kabeljauwfilet met augurk en kruidenmayonaise geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Vis",
+        "Melk",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2326695f-79f0-4d64-9de0-b8e858908d36.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2326695f-79f0-4d64-9de0-b8e858908d36.jpg"
+    },
+    {
+      "id": "verhage-doublemenu",
+      "sourceId": 621051,
+      "code": "VHG0000002214",
+      "name": "Verhage doublemenu",
+      "slug": "verhage-double-menu",
+      "price": 12,
+      "priceFrom": false,
+      "description": "Onze Verhage Classic, maar dan met een dubbele flame-grilled burger, frites en salade. Dat is dus dubbel genieten!",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk",
+        "Selderij",
+        "Mosterd",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3d076014-55d2-4a30-b268-b676eaf405fc.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3d076014-55d2-4a30-b268-b676eaf405fc.jpg"
+    },
+    {
+      "id": "tzatzikiburger-menu",
+      "sourceId": 18539,
+      "code": "VHG0000000620",
+      "name": "Tzatzikiburger menu",
+      "slug": "tzatzikiburgermenu",
+      "price": 12.2,
+      "priceFrom": false,
+      "description": "Zomerse special. Kipfiletburger op foccaciabrood, tikkie spicy en met frisse tzatzikisaus geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "burger",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Noten",
+        "Melk",
+        "Selderij",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638233756714205203.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638233756714205203.jpg"
+    },
+    {
+      "id": "schnitzelmenu",
+      "sourceId": 17974,
+      "code": "VHG0000000021",
+      "name": "Schnitzelmenu",
+      "slug": "schnitzel-menu",
+      "price": 12.35,
+      "priceFrom": false,
+      "description": "Zin in een stevige maaltijd? Deze royale, heerlijk malse schnitzel is perfect goudbruin en krokant gebakken. Een absolute aanrader.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-be215425-1890-4897-8819-b7f1df8fec29.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-be215425-1890-4897-8819-b7f1df8fec29.jpg"
+    },
+    {
+      "id": "kipschnitzelmenu",
+      "sourceId": 17983,
+      "code": "VHG0000000030",
+      "name": "Kipschnitzelmenu",
+      "slug": "kipschnitzelmenu",
+      "price": 12.35,
+      "priceFrom": false,
+      "description": "Geniet van een sappige, grote kipschnitzel met een luchtig, goudgeel korstje. Geserveerd met knapperige frites en frisse salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-721bcf66-c42c-41a6-8785-226b6e173134.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-721bcf66-c42c-41a6-8785-226b6e173134.jpg"
+    },
+    {
+      "id": "steakhousemenu",
+      "sourceId": 17963,
+      "code": "VHG0000000010",
+      "name": "Steakhousemenu",
+      "slug": "steakhouse-menu",
+      "price": 12.85,
+      "priceFrom": false,
+      "description": "Een steenoven gebakken brioche met 150 gram premium beef, gebakken uitjes, umami mayonaise en rough ketchup en twee heerlijke sauzen geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d05655ad-a8d8-445a-9581-3d6bb5f2acc2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d05655ad-a8d8-445a-9581-3d6bb5f2acc2.jpg"
+    },
+    {
+      "id": "steakhouse-chickenmenu",
+      "sourceId": 173067,
+      "code": "VHG0000001548",
+      "name": "Steakhouse chickenmenu",
+      "slug": "steakhouse-chicken-menu",
+      "price": 12.85,
+      "priceFrom": false,
+      "description": "Een heerlijke Steakhouse Chicken Burger van 100% spicy kipfilet, tomaat, frisse sla, umami mayonaise en rough ketchup op een knapperig broodje geserveerd met frites en salade.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e6140cfa-b430-4443-83c5-e44b5677dcab.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e6140cfa-b430-4443-83c5-e44b5677dcab.jpg"
+    },
+    {
+      "id": "steakhouse-veggiemenu",
+      "sourceId": 125157,
+      "code": "VHG9900000347",
+      "name": "Steakhouse veggiemenu",
+      "slug": "steakhouseburger-veggie-menu",
+      "price": 12.85,
+      "priceFrom": false,
+      "description": "Een spinazie-kaas burger op een steenoven gebakken brioche met tomaat, frisse sla en speciale umami saus en rough ketchup. Geserveerd met frites en salade. 100% vega!",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Burgermenu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "vegetarian",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Sesamzaad"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e9328d6d-4b04-4c38-b1f3-bae1c3ff5d9a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e9328d6d-4b04-4c38-b1f3-bae1c3ff5d9a.jpg"
+    },
+    {
+      "id": "satemenu",
+      "sourceId": 17975,
+      "code": "VHG0000000022",
+      "name": "Satemenu",
+      "slug": "sate-menu",
+      "price": 12.95,
+      "priceFrom": false,
+      "description": "Een ware klassieker! Malse, perfect bereide stukjes kip, rijkelijk overgoten met een dikke, warme en hartige pindasaus. Lekker met cassave en gebakken uitjes.",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-a56e9d73-cc90-41c8-b6f7-0150eb23d9b0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-a56e9d73-cc90-41c8-b6f7-0150eb23d9b0.jpg"
+    },
+    {
+      "id": "spareribsmenu",
+      "sourceId": 17976,
+      "code": "VHG0000000023",
+      "name": "Spareribsmenu",
+      "slug": "sparerib-menu",
+      "price": 15.35,
+      "priceFrom": false,
+      "description": "Trakteer jezelf op botermalse spareribs die soepel van het bot vallen. Vers van onze slager!",
+      "category": "Menu's",
+      "categorySlug": "menus",
+      "subgroup": "Menu's",
+      "categories": [
+        "Menu's",
+        "Bestsellers"
+      ],
+      "tags": [
+        "menu",
+        "main",
+        "bestseller"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638628616138078744.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638628616138078744.jpg"
+    },
+    {
+      "id": "salade-kip",
+      "sourceId": 712375,
+      "code": null,
+      "name": "Salade kip",
+      "slug": "salade-kip",
+      "price": 5.9,
+      "priceFrom": true,
+      "description": "Licht, knapperig en gezond. Een grote bowl vol frisse ijsbergsla, cherrytomaatjes en hete, krokant gebakken, malse stukjes kip bites.",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-92c943f2-bc17-44d8-a670-f316048bbe7f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-92c943f2-bc17-44d8-a670-f316048bbe7f.jpg"
+    },
+    {
+      "id": "salade-tonijn",
+      "sourceId": 712377,
+      "code": null,
+      "name": "Salade tonijn",
+      "slug": "salade-tonijn",
+      "price": 5.9,
+      "priceFrom": true,
+      "description": "Een maaltijdsalade boordevol smaak. Frisse, knapperige sla wordt perfect aangevuld door tonijnsalade en verse rauwkost.",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e4de0cbd-5a8f-40a4-80a0-51f1b9dedad0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e4de0cbd-5a8f-40a4-80a0-51f1b9dedad0.jpg"
+    },
+    {
+      "id": "salade-mozzarella",
+      "sourceId": 712677,
+      "code": null,
+      "name": "Salade mozzarella",
+      "slug": "salade-mozzarella",
+      "price": 5.9,
+      "priceFrom": true,
+      "description": "",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-deb3c089-619f-4d8c-aa84-8ebe13332c66.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-deb3c089-619f-4d8c-aa84-8ebe13332c66.jpg"
+    },
+    {
+      "id": "salade-tzatziki",
+      "sourceId": 715692,
+      "code": null,
+      "name": "Salade tzatziki",
+      "slug": "salade-tzatziki",
+      "price": 5.95,
+      "priceFrom": true,
+      "description": "",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades",
+        "Bestsellers"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light",
+        "bestseller"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638549893134083655.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638549893134083655.jpg"
+    },
+    {
+      "id": "salade-carpaccio",
+      "sourceId": 712374,
+      "code": null,
+      "name": "Salade carpaccio",
+      "slug": "salade-carpaccio",
+      "price": 6.45,
+      "priceFrom": true,
+      "description": "Geniet van een royale bowl vol verse, knapperige rucola en ijsbergsla, prachtig opgemaakt met fluweelzachte, flinterdunne carpaccio en parmezaan.",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6353f89f-462d-4b94-91d6-c814c0b8b9d5.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6353f89f-462d-4b94-91d6-c814c0b8b9d5.jpg"
+    },
+    {
+      "id": "salade-zalm",
+      "sourceId": 712376,
+      "code": null,
+      "name": "Salade zalm",
+      "slug": "salade-zalm",
+      "price": 6.45,
+      "priceFrom": true,
+      "description": "Een compacte, licht en luchtige salade met heerlijke, zachte en subtiel rokerige plakjes gerookte zalm bovenop knapperige groenten.",
+      "category": "Salades",
+      "categorySlug": "salades",
+      "subgroup": null,
+      "categories": [
+        "Salades"
+      ],
+      "tags": [
+        "salad",
+        "main",
+        "light",
+        "vegetarian"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4ec80aab-ad00-4d1e-96e7-ec763bedbe9d.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4ec80aab-ad00-4d1e-96e7-ec763bedbe9d.jpg"
+    },
+    {
+      "id": "fritessaus",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Fritessaus",
+      "slug": "fritessaus",
+      "price": 0.8,
+      "priceFrom": true,
+      "description": "Fritessaus (glutenvrij) volgens traditioneel recept!",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-c2749dee-bfd8-46a2-a9fc-c3d8b0b3caba.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-c2749dee-bfd8-46a2-a9fc-c3d8b0b3caba.jpg"
+    },
+    {
+      "id": "curry",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Curry",
+      "slug": "curry",
+      "price": 0.8,
+      "priceFrom": true,
+      "description": "Curry",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-343a629a-e8f2-4b3f-961d-09552fd50338.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-343a629a-e8f2-4b3f-961d-09552fd50338.jpg"
+    },
+    {
+      "id": "ketchup",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Ketchup",
+      "slug": "ketchup",
+      "price": 0.8,
+      "priceFrom": true,
+      "description": "Ketchup",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-1ab8491a-0a3c-40a5-8d4f-ac35cc9e7db3.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-1ab8491a-0a3c-40a5-8d4f-ac35cc9e7db3.jpg"
+    },
+    {
+      "id": "ui-snippers",
+      "sourceId": 18163,
+      "code": "VHG0000000212",
+      "name": "Ui Snippers",
+      "slug": "ui-los-100ml",
+      "price": 0.8,
+      "priceFrom": false,
+      "description": "Uienblokjes gesneden.",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-0988c138-9c6b-451c-90f3-762748e84889.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-0988c138-9c6b-451c-90f3-762748e84889.jpg"
+    },
+    {
+      "id": "speciaal",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Speciaal",
+      "slug": "speciaal",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Fritessaus, curry en uitjes!",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-0579b6f1-3943-4285-9954-48af81fbc0ca.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-0579b6f1-3943-4285-9954-48af81fbc0ca.jpg"
+    },
+    {
+      "id": "speciaal-ketchup",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Speciaal / Ketchup",
+      "slug": "speciaal-ketchup",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Speciaalsaus maar dan met ketchup in plaats van curry",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-0579b6f1-3943-4285-9954-48af81fbc0ca.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-0579b6f1-3943-4285-9954-48af81fbc0ca.jpg"
+    },
+    {
+      "id": "pindasaus",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Pindasaus",
+      "slug": "pindasaus",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Pindasaus",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-cb205942-3474-4bfb-82d2-325be1207506.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-cb205942-3474-4bfb-82d2-325be1207506.jpg"
+    },
+    {
+      "id": "joppiesaus",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Joppiesaus",
+      "slug": "joppiesaus",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Joppiesaus",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5f6fb996-6417-49ed-bd22-47b7b752d5b5.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5f6fb996-6417-49ed-bd22-47b7b752d5b5.jpg"
+    },
+    {
+      "id": "fritessaus-pinda",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Fritessaus / Pinda",
+      "slug": "fritessaus-pinda",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Fritessaus / Pinda",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-08d820be-cb76-446b-823b-f357e86578c4.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-08d820be-cb76-446b-823b-f357e86578c4.jpg"
+    },
+    {
+      "id": "fritessaus-pinda-ui",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Fritessaus / Pinda / Ui",
+      "slug": "fritessaus-pinda-ui",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Fritessaus, pindasaus en ui",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d68c3adc-d07b-4f2e-87f1-f2c84197941f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d68c3adc-d07b-4f2e-87f1-f2c84197941f.jpg"
+    },
+    {
+      "id": "barbecue-saus",
+      "sourceId": 18160,
+      "code": "VHG0000000209",
+      "name": "Barbecue saus",
+      "slug": "bbq-saus",
+      "price": 1.2,
+      "priceFrom": false,
+      "description": "Nuggetsaus BBQ",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-badd67e8-0f99-4a0a-a673-f6e6792f75c8.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-badd67e8-0f99-4a0a-a673-f6e6792f75c8.jpg"
+    },
+    {
+      "id": "zoetzure-saus",
+      "sourceId": 18161,
+      "code": "VHG0000000210",
+      "name": "Zoetzure Saus",
+      "slug": "zoetzure-saus-cup",
+      "price": 1.2,
+      "priceFrom": false,
+      "description": "Nuggetsaus zoetzuur",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-9c130d70-b181-4663-95f4-7257cbb7f057.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-9c130d70-b181-4663-95f4-7257cbb7f057.jpg"
+    },
+    {
+      "id": "knoflooksaus",
+      "sourceId": 720698,
+      "code": null,
+      "name": "Knoflooksaus",
+      "slug": "knoflooksaus",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fa86e782-1083-4fc3-9240-717c787b958a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fa86e782-1083-4fc3-9240-717c787b958a.jpg"
+    },
+    {
+      "id": "truffel-mayonaise",
+      "sourceId": 176093,
+      "code": "VHG0000001558",
+      "name": "Truffel Mayonaise",
+      "slug": "truffel-mayonaise",
+      "price": 1.2,
+      "priceFrom": false,
+      "description": "",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [
+        "Ei",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5d5a7ca6-f015-4e59-89c7-ba3f03fcf8c0.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5d5a7ca6-f015-4e59-89c7-ba3f03fcf8c0.jpg"
+    },
+    {
+      "id": "sweet-en-spicy-chilisaus",
+      "sourceId": 433900,
+      "code": null,
+      "name": "Sweet en spicy chilisaus",
+      "slug": "sweet-en-spicy-chilisaus",
+      "price": 1.2,
+      "priceFrom": true,
+      "description": "Vurige, maar zoete chilisaus",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d9791f41-ef17-4127-b0a9-83b0bcd29c2a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d9791f41-ef17-4127-b0a9-83b0bcd29c2a.jpg"
+    },
+    {
+      "id": "appelmoes",
+      "sourceId": 18165,
+      "code": "VHG0000000215",
+      "name": "Appelmoes",
+      "slug": "appelmoes",
+      "price": 1.65,
+      "priceFrom": false,
+      "description": "Appelmoes zonder stukjes zonder toegevoegde suiker.",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-cfcb27bc-06a7-400b-ad3a-46e1da79c456.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-cfcb27bc-06a7-400b-ad3a-46e1da79c456.jpg"
+    },
+    {
+      "id": "champignon-saus",
+      "sourceId": 18166,
+      "code": "VHG0000000216",
+      "name": "Champignon Saus",
+      "slug": "champignonsaus",
+      "price": 2.1,
+      "priceFrom": false,
+      "description": "Warm en vol champignons. Lekker bij kip en onze schnitzels.",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-97e576ac-e330-4dc0-9387-0ec208663e34.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-97e576ac-e330-4dc0-9387-0ec208663e34.jpg"
+    },
+    {
+      "id": "stroganoff-saus",
+      "sourceId": 18167,
+      "code": "VHG0000000217",
+      "name": "Stroganoff Saus",
+      "slug": "stroganoffsaus",
+      "price": 2.1,
+      "priceFrom": false,
+      "description": "Warm en rijk gevuld. Lekker bij kip en onze schnitzels.",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2d228406-3bdf-4d8e-8206-d888f2947a94.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2d228406-3bdf-4d8e-8206-d888f2947a94.jpg"
+    },
+    {
+      "id": "fles-fritessaus",
+      "sourceId": 18396,
+      "code": "VHG0000000476",
+      "name": "Fles fritessaus",
+      "slug": "knijpfles-fritessaus",
+      "price": 2.5,
+      "priceFrom": false,
+      "description": "Ons klassieke recept (glutenvrij). Handig voor op tafel, en altijd voldoende!",
+      "category": "Sauzen",
+      "categorySlug": "sauzen",
+      "subgroup": null,
+      "categories": [
+        "Sauzen"
+      ],
+      "tags": [
+        "sauce",
+        "condiment"
+      ],
+      "allergens": [
+        "Ei",
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-20499a52-648b-4757-a9e6-9e4a7c3a2b9f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-20499a52-648b-4757-a9e6-9e4a7c3a2b9f.jpg"
+    },
+    {
+      "id": "milkshake",
+      "sourceId": 18703,
+      "code": "VHG0000000854",
+      "name": "Milkshake",
+      "slug": "milkshake",
+      "price": 2.95,
+      "priceFrom": false,
+      "description": "Zonder kunstmatige kleurstoffen. In 4 smaken.",
+      "category": "Shakes",
+      "categorySlug": "shakes",
+      "subgroup": null,
+      "categories": [
+        "Shakes"
+      ],
+      "tags": [
+        "drink",
+        "shake",
+        "sweet"
+      ],
+      "allergens": [
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294343446255315.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294343446255315.jpg"
+    },
+    {
+      "id": "puntbrood",
+      "sourceId": 18140,
+      "code": "VHG0000000189",
+      "name": "Puntbrood",
+      "slug": "puntbrood-met-prijs",
+      "price": 0.95,
+      "priceFrom": false,
+      "description": "Los puntbroodje gesneden van onze bakker.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-7a97f68a-47b6-4ff8-91bf-27c6d1cf07e8.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-7a97f68a-47b6-4ff8-91bf-27c6d1cf07e8.jpg"
+    },
+    {
+      "id": "vietnamese-loempia",
+      "sourceId": 18013,
+      "code": "VHG0000000061",
+      "name": "Vietnamese loempia",
+      "slug": "vietnamese-loempia",
+      "price": 2.1,
+      "priceFrom": false,
+      "description": "Deze Vietnamese loempia heeft een flinterdun, extreem krokant jasje en verbergt een hete, kruidige vulling van knapperige groenten. Een onweerstaanbare, lichte bite!",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "vegetarian"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-353f7391-bff0-4701-beab-2b916edf4dab.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-353f7391-bff0-4701-beab-2b916edf4dab.jpg"
+    },
+    {
+      "id": "rundvleeskroket",
+      "sourceId": 10080,
+      "code": "VHG0000000036",
+      "name": "Rundvleeskroket",
+      "slug": "rundvlees-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Ontdek het flinterdunne, krokante korstje dat een rijke, fluweelzachte ragout van rundvlees verbergt. Een absolute Hollandse oersnack.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Lupine"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fc67bb77-e478-426e-8102-831223445214.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fc67bb77-e478-426e-8102-831223445214.jpg"
+    },
+    {
+      "id": "kalfsvleeskroket",
+      "sourceId": 17989,
+      "code": "VHG0000000037",
+      "name": "Kalfsvleeskroket",
+      "slug": "kalfsvlees-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Laat je verfijnen door deze romige ragout van boterzacht kalfsvlees, prachtig in balans met een luchtig, krokant jasje.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Lupine"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-42ffc48a-ad75-4403-b224-ff401aa4bb0e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-42ffc48a-ad75-4403-b224-ff401aa4bb0e.jpg"
+    },
+    {
+      "id": "draadjesvleeskroket",
+      "sourceId": 17992,
+      "code": "VHG0000000040",
+      "name": "Draadjesvleeskroket",
+      "slug": "draadjesvlees-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Boordevol zacht gegaard draadjesvlees, stevig omhuld door een perfect goudbruin en knapperig paneerlaagje. Bourgondisch genieten!",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-47744402-aba8-407c-a002-b51a2abf0a3e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-47744402-aba8-407c-a002-b51a2abf0a3e.jpg"
+    },
+    {
+      "id": "kipsatekroket",
+      "sourceId": 17991,
+      "code": "VHG0000000039",
+      "name": "Kipsatekroket",
+      "slug": "kip-sate-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Een verrassende smaakexplosie! Een hete, krokante kroket royaal gevuld met een warme, zoet-kruidige ragout en een vleugje sambal.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Pinda's",
+        "Soja",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e3547607-f785-4841-89cb-8bd4f1cd4a40.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e3547607-f785-4841-89cb-8bd4f1cd4a40.jpg"
+    },
+    {
+      "id": "kipkroket",
+      "sourceId": 17993,
+      "code": "VHG0000000041",
+      "name": "Kipkroket",
+      "slug": "kip-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Zet je tanden in deze zachte, romige kipragout die stevig is omgeven door een prachtig goudgeel en krokant afgebakken korstje.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg"
+    },
+    {
+      "id": "veggiekroket",
+      "sourceId": 17990,
+      "code": "VHG0000000038",
+      "name": "Veggiekroket",
+      "slug": "veggie-kroket",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Een duurzame, plantaardige en heerlijk romige ragout met een hartige, diepe smaak, verpakt in een super knapperig jasje. Boordevol groenten!",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "vegetarian"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Lupine"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-900a8439-8745-47f9-b4ff-50860b8fdfcc.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-900a8439-8745-47f9-b4ff-50860b8fdfcc.jpg"
+    },
+    {
+      "id": "frikadel",
+      "sourceId": 17994,
+      "code": "VHG0000000042",
+      "name": "Frikadel",
+      "slug": "frikadel",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "De snack der snacks. Een klassieke, stevige en hartig gekruide vleessnack die altijd perfect warm en goudbruin wordt gebakken.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-9bc38197-81ec-4108-8de9-723e97152a58.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-9bc38197-81ec-4108-8de9-723e97152a58.jpg"
+    },
+    {
+      "id": "kipfrikadel",
+      "sourceId": 18361,
+      "code": "VHG0000000440",
+      "name": "Kipfrikadel",
+      "slug": "kip-frikadel",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Een heerlijk lichte, malse en subtiel gekruide snack van zachte kip. Altijd warm, vertrouwd en goudbruin geserveerd.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-34f2b84d-980f-4cfa-8ced-a9ada3be5a06.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-34f2b84d-980f-4cfa-8ced-a9ada3be5a06.jpg"
+    },
+    {
+      "id": "javaanse-frikadel",
+      "sourceId": 18012,
+      "code": "VHG0000000060",
+      "name": "Javaanse frikadel",
+      "slug": "javaanse-frikadel",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Een stevige, goudbruin gebakken vers bereide vleessnack, rijk gevuld met warme, lichtzoete en subtiel pittige specerijen voor een perfecte bite.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-92b1404e-b0a9-4bb8-971c-8d2e1ca8a5e1.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-92b1404e-b0a9-4bb8-971c-8d2e1ca8a5e1.jpg"
+    },
+    {
+      "id": "kaassouffle",
+      "sourceId": 17987,
+      "code": "VHG0000000034",
+      "name": "Kaassouffle",
+      "slug": "kaassouffle",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Verwen jezelf met een heet, luchtig en super krokant bladerdeegjasje dat een kern van romige, zacht smeltende kaas verbergt.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-34e6412d-bff6-4c00-aa58-1f12124a0f6e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-34e6412d-bff6-4c00-aa58-1f12124a0f6e.jpg"
+    },
+    {
+      "id": "hamkaassouffle",
+      "sourceId": 18005,
+      "code": "VHG0000000053",
+      "name": "Hamkaassouffle",
+      "slug": "ham-kaas-souffle",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Onder een heet en goudgeel bladerdeegjasje schuilt een verrukkelijke kern van zacht smeltende kaas en hartige stukjes ham.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d42e2d79-9cd1-41c3-b470-6b1c2f6891c8.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d42e2d79-9cd1-41c3-b470-6b1c2f6891c8.jpg"
+    },
+    {
+      "id": "bamihap",
+      "sourceId": 17988,
+      "code": "VHG0000000035",
+      "name": "Bamihap",
+      "slug": "bamihap",
+      "price": 2.75,
+      "priceFrom": false,
+      "description": "Een stevig, krokant gepaneerd blok gevuld met rijkelijk gekruide, Oosterse bami en zachte, verse groentjes voor een vullende bite.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-391a1ccc-3f27-4042-aec3-0aacd785b481.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-391a1ccc-3f27-4042-aec3-0aacd785b481.jpg"
+    },
+    {
+      "id": "kipkrokant",
+      "sourceId": 17998,
+      "code": "VHG0000000046",
+      "name": "Kipkrokant",
+      "slug": "kipkrokant",
+      "price": 3,
+      "priceFrom": false,
+      "description": "Een malse, zachte kipsnack die wordt beschermd door een extreem krokant, luchtig en goudbruin gebakken jasje.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg"
+    },
+    {
+      "id": "mexicano",
+      "sourceId": 17996,
+      "code": "VHG0000000044",
+      "name": "Mexicano",
+      "slug": "mexicano",
+      "price": 3.3,
+      "priceFrom": false,
+      "description": "Deze stevige, hartige snack met een robuuste ribbelstructuur biedt een verrukkelijke, licht pittige kick bij elke hap.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg"
+    },
+    {
+      "id": "broodje-draadjesvleeskroket",
+      "sourceId": 18574,
+      "code": "VHG0000000725",
+      "name": "Broodje draadjesvleeskroket",
+      "slug": "broodje-draadjesvlees-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Bourgondische kroket met karakteristiek draadjesvlees, dat is Brabantse genieten.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-47744402-aba8-407c-a002-b51a2abf0a3e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-47744402-aba8-407c-a002-b51a2abf0a3e.jpg"
+    },
+    {
+      "id": "broodje-rundvleeskroket",
+      "sourceId": 18571,
+      "code": "VHG0000000722",
+      "name": "Broodje rundvleeskroket",
+      "slug": "broodje-rundvlees-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Krokante kroket van 100 gram met mals rundvlees en extra romig door de toevoeging van een vleugje slagroom.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fc67bb77-e478-426e-8102-831223445214.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fc67bb77-e478-426e-8102-831223445214.jpg"
+    },
+    {
+      "id": "broodje-kalfsvleeskroket",
+      "sourceId": 18572,
+      "code": "VHG0000000723",
+      "name": "Broodje kalfsvleeskroket",
+      "slug": "broodje-kalfsvlees-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Een smaakvolle kroket van 100 gram met vlees van Nederlandse kalveren",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-42ffc48a-ad75-4403-b224-ff401aa4bb0e.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-42ffc48a-ad75-4403-b224-ff401aa4bb0e.jpg"
+    },
+    {
+      "id": "broodje-veggiekroket",
+      "sourceId": 18575,
+      "code": "VHG0000000726",
+      "name": "Broodje veggiekroket",
+      "slug": "broodje-veggie-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "100% vegetarische groentekroket zonder dierlijk gelatine, vol met verse groenten zoals paprika, champignon, wortel, bloemkool, ui en stukjes scharrelei.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "vegetarian"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Lupine"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-fc67bb77-e478-426e-8102-831223445214.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-fc67bb77-e478-426e-8102-831223445214.jpg"
+    },
+    {
+      "id": "broodje-kipsatekroket",
+      "sourceId": 18573,
+      "code": "VHG0000000724",
+      "name": "Broodje kipsatekroket",
+      "slug": "broodje-kip-sate-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Smeuïg met de smaak van satésaus. Goed op smaak gebracht met een beetje sambal.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Pinda's",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Lupine"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e3547607-f785-4841-89cb-8bd4f1cd4a40.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e3547607-f785-4841-89cb-8bd4f1cd4a40.jpg"
+    },
+    {
+      "id": "broodje-kipkroket",
+      "sourceId": 18669,
+      "code": "VHG0000000820",
+      "name": "Broodje kipkroket",
+      "slug": "broodje-kip-kroket",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Heerlijke kroket met een kruidige ragout van kip.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-67ac52ff-7a2d-46ce-95d9-4e79dd86e7fb.jpg"
+    },
+    {
+      "id": "broodje-frikadel",
+      "sourceId": 18576,
+      "code": "VHG0000000727",
+      "name": "Broodje frikadel",
+      "slug": "broodje-frikadel",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "De klassieke Verhage frikandel is de absolute favoriet van jong en oud en niet weg te denken uit ons assortiment. Een vertrouwde snack van topkwaliteit + Puntbroodje",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-9bc38197-81ec-4108-8de9-723e97152a58.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-9bc38197-81ec-4108-8de9-723e97152a58.jpg"
+    },
+    {
+      "id": "broodje-javaanse-frikadel",
+      "sourceId": 18579,
+      "code": "VHG0000000730",
+      "name": "Broodje Javaanse frikadel",
+      "slug": "broodje-javaanse-frikadel",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Pittige frikadel met een vleugje oosterse kruiden. Tip: lekker met pindasaus.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "spicy"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-92b1404e-b0a9-4bb8-971c-8d2e1ca8a5e1.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-92b1404e-b0a9-4bb8-971c-8d2e1ca8a5e1.jpg"
+    },
+    {
+      "id": "broodje-kipfrikadel",
+      "sourceId": 18670,
+      "code": "VHG0000000821",
+      "name": "Broodje kipfrikadel",
+      "slug": "broodje-kip-frikadel",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "De klassieke Verhage kip frikandel is de absolute favoriet van jong en oud en niet weg te denken uit ons assortiment. Een vertrouwde snack van topkwaliteit + Puntbroodje",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-34f2b84d-980f-4cfa-8ced-a9ada3be5a06.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-34f2b84d-980f-4cfa-8ced-a9ada3be5a06.jpg"
+    },
+    {
+      "id": "broodje-kaassouffle",
+      "sourceId": 18580,
+      "code": "VHG0000000731",
+      "name": "Broodje kaassouffle",
+      "slug": "broodje-kaas-souffle",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Goed gevulde kaassoufflé in unieke vorm met extra kaas, ook in de korst.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294245694304848.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294245694304848.jpg"
+    },
+    {
+      "id": "broodje-hamkaassouffle",
+      "sourceId": 18581,
+      "code": "VHG0000000732",
+      "name": "Broodje hamkaassouffle",
+      "slug": "broodje-ham-kaas-souffle",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Een lekkere kaassoufflé met blokjes ham.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d42e2d79-9cd1-41c3-b470-6b1c2f6891c8.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d42e2d79-9cd1-41c3-b470-6b1c2f6891c8.jpg"
+    },
+    {
+      "id": "broodje-bamihap",
+      "sourceId": 18585,
+      "code": "VHG0000000736",
+      "name": "Broodje bamihap",
+      "slug": "broodje-bamihap",
+      "price": 3.7,
+      "priceFrom": false,
+      "description": "Past maar net. Lekker met pindasaus.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-391a1ccc-3f27-4042-aec3-0aacd785b481.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-391a1ccc-3f27-4042-aec3-0aacd785b481.jpg"
+    },
+    {
+      "id": "broodje-kipkrokant",
+      "sourceId": 18587,
+      "code": "VHG0000000738",
+      "name": "Broodje kipkrokant",
+      "slug": "broodje-kipkrokant",
+      "price": 3.95,
+      "priceFrom": false,
+      "description": "Malse kipcorn met een crunchy bite.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6a0104f2-b6b3-4b05-875a-f7fcdaeed132.jpg"
+    },
+    {
+      "id": "broodje-mexicano",
+      "sourceId": 18583,
+      "code": "VHG0000000734",
+      "name": "Broodje mexicano",
+      "slug": "broodje-mexicano",
+      "price": 4.25,
+      "priceFrom": false,
+      "description": "De klassieker onder de snacks. Extra lekker met pindasaus!",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4236b933-7cbe-4c99-9612-686d9e666ef7.jpg"
+    },
+    {
+      "id": "kipnuggets",
+      "sourceId": 684457,
+      "code": null,
+      "name": "Kipnuggets",
+      "slug": "kipnuggets",
+      "price": 4.35,
+      "priceFrom": true,
+      "description": "Klassieke kip nuggets met een zoetzure of BBQ-saus.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks",
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294247989347689.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294247989347689.jpg"
+    },
+    {
+      "id": "gehaktbal",
+      "sourceId": 18002,
+      "code": "VHG0000000050",
+      "name": "Gehaktbal",
+      "slug": "bal-gehakt",
+      "price": 4.5,
+      "priceFrom": false,
+      "description": "Een ronde, stevige ambachtelijke bal van hartig gekruid vlees. Gloeiend heet geserveerd uit een badje van zijn eigen, warme jus.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-10b2e28e-f1e5-41b0-aa15-03020b878c10.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-10b2e28e-f1e5-41b0-aa15-03020b878c10.jpg"
+    },
+    {
+      "id": "kipkluifjes",
+      "sourceId": 713285,
+      "code": null,
+      "name": "Kipkluifjes",
+      "slug": "kipkluifjes",
+      "price": 4.75,
+      "priceFrom": true,
+      "description": "Medium spicy kluifjes met een dun korstje, Kies er 5 of 8.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks",
+        "Bites"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken",
+        "spicy"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d7e1daa7-448f-4efd-b14e-fded0c4464c2.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d7e1daa7-448f-4efd-b14e-fded0c4464c2.jpg"
+    },
+    {
+      "id": "broodje-bal-gehakt-snack",
+      "sourceId": 18629,
+      "code": "VHG0000000780",
+      "name": "Broodje bal gehakt (snack)",
+      "slug": "broodje-bal-gehakt-snack",
+      "price": 5.45,
+      "priceFrom": false,
+      "description": "De gehaktbal van Verhage, uit de jus, de bal bestaat uit een mix van rund en varken, uitjes en kruidnagel. Geserveerd op brood naar keuze met sla, komkommer en tomaat.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks op brood",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6bf1fdab-162b-4c9b-8960-39cd68178368.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6bf1fdab-162b-4c9b-8960-39cd68178368.jpg"
+    },
+    {
+      "id": "berenklauw-met-saus",
+      "sourceId": 18570,
+      "code": "VHG0000000721",
+      "name": "Berenklauw met saus",
+      "slug": "berenklauw-saus",
+      "price": 5.5,
+      "priceFrom": false,
+      "description": "Dikke, hartige en stevige schijven gehaktbal, speels afgewisseld met zoete uienringen en bedolven onder een royale laag warme pindasaus.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten",
+        "Soja",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-29ab8ff2-b161-4268-9437-b75bbab5e0db.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-29ab8ff2-b161-4268-9437-b75bbab5e0db.jpg"
+    },
+    {
+      "id": "loempia-kip",
+      "sourceId": 18007,
+      "code": "VHG0000000055",
+      "name": "Loempia kip",
+      "slug": "loempia",
+      "price": 5.55,
+      "priceFrom": false,
+      "description": "Voor de stevige trek kies je deze robuuste, vers bereide kip loempia. Een goudbruin gebakken, knapperige korst boordevol malse kipstukjes en knisperend verse taugé.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side",
+        "chicken"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-3cc4bd33-9938-43a3-900b-4691bbd436d5.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-3cc4bd33-9938-43a3-900b-4691bbd436d5.jpg"
+    },
+    {
+      "id": "schnitzel",
+      "sourceId": 18001,
+      "code": "VHG0000000049",
+      "name": "Schnitzel",
+      "slug": "varkensschnitzel",
+      "price": 7.1,
+      "priceFrom": false,
+      "description": "Een sappig, platgeslagen stuk kwaliteitsvlees, loeiheet en goudbruin gebakken in zijn eigen sappen voor een onweerstaanbare, robuuste en krokante bite.",
+      "category": "Snacks",
+      "categorySlug": "snacks",
+      "subgroup": "Snacks",
+      "categories": [
+        "Snacks"
+      ],
+      "tags": [
+        "snack",
+        "side"
+      ],
+      "allergens": [
+        "Gluten"
+      ],
+      "hasOptions": false,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-727caa3a-e6b5-4d8d-b4bd-0843ba9ea66f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-727caa3a-e6b5-4d8d-b4bd-0843ba9ea66f.jpg"
+    },
+    {
+      "id": "tosti-classic",
+      "sourceId": 18672,
+      "code": "VHG0000000823",
+      "name": "Tosti classic",
+      "slug": "tosti-classic",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "De gouden standaard. Knapperig, warm desembrood, rijkelijk belegd met hartige, hete boerenham en zacht smeltende, draderige kaas. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2a4cd963-4d9f-4e43-aaea-5f08367fc7b9.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2a4cd963-4d9f-4e43-aaea-5f08367fc7b9.jpg"
+    },
+    {
+      "id": "tosti-classic-chicken",
+      "sourceId": 18890,
+      "code": "VHG9900000052",
+      "name": "Tosti classic chicken",
+      "slug": "tosti-classic-chicken",
+      "price": 6.5,
+      "priceFrom": false,
+      "description": "De gouden standaard. Knapperig, warm desembrood, rijkelijk belegd met malse stukken kipfilet en zacht smeltende, draderige kaas.",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "chicken",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-5e1e0c7e-9107-4645-b298-3cca557d5350.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-5e1e0c7e-9107-4645-b298-3cca557d5350.jpg"
+    },
+    {
+      "id": "tosti-oude-kaas",
+      "sourceId": 18673,
+      "code": "VHG0000000824",
+      "name": "Tosti oude kaas",
+      "slug": "tosti-good-old",
+      "price": 7,
+      "priceFrom": false,
+      "description": "Tussen twee hete, goudbruine sneetjes desembrood smelt de stevige, zoutige en intens karaktervolle oude kaas heerlijk samen met de boerenham. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-4ac625a9-d004-40fd-9950-e6c7bfb8a407.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-4ac625a9-d004-40fd-9950-e6c7bfb8a407.jpg"
+    },
+    {
+      "id": "tosti-triple-cheese",
+      "sourceId": 18674,
+      "code": "VHG0000000825",
+      "name": "Tosti triple cheese",
+      "slug": "tosti-triple-cheese",
+      "price": 7,
+      "priceFrom": false,
+      "description": "De droom voor elke kaasfan. Drie lagen dik, knapperig desembrood vol met drie verschillende soorten hete, vloeibare en smeltende kaas: jong belegen, cheddar en brie. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-72b6dd86-5f9b-4102-8a89-de996205862c.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-72b6dd86-5f9b-4102-8a89-de996205862c.jpg"
+    },
+    {
+      "id": "tosti-italiano",
+      "sourceId": 18675,
+      "code": "VHG0000000826",
+      "name": "Tosti italiano",
+      "slug": "tosti-italiano",
+      "price": 7,
+      "priceFrom": false,
+      "description": "Waan je in Italië. Heet, krokant desembrood met zacht smeltende kaas, pesto, mozzarella, tomaat en rucola. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-48ea73ee-b45d-4ab2-bf05-46b17d5a3586.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-48ea73ee-b45d-4ab2-bf05-46b17d5a3586.jpg"
+    },
+    {
+      "id": "tosti-tuna-melt",
+      "sourceId": 18409,
+      "code": "VHG0000000489",
+      "name": "Tosti tuna melt",
+      "slug": "tosti-salami",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Een heerlijk warme en smeuïge lunch. Krokant desembrood gevuld met rijke, zachte tonijn en overgoten met hete, smeltende kaas. Cupje lemonpepper mayonaise inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Vis",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-638294182276087980.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-638294182276087980.jpg"
+    },
+    {
+      "id": "tosti-chili-chicken",
+      "sourceId": 460381,
+      "code": "VHG0000002001",
+      "name": "Tosti chili chicken",
+      "slug": "tosti-chili-chicken",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Geef je lunch een kick. Knapperig desembrood vol met gesneden kipfilet, zacht smeltende kaas, pepertjes, rode ui, mais en allioli. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "chicken",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Melk",
+        "Selderij"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-2603114a-108f-4ce7-a22b-73b3db54f6c5.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-2603114a-108f-4ce7-a22b-73b3db54f6c5.jpg"
+    },
+    {
+      "id": "tosti-zalm",
+      "sourceId": 18676,
+      "code": "VHG0000000827",
+      "name": "Tosti zalm",
+      "slug": "tosti-zalm",
+      "price": 8.25,
+      "priceFrom": false,
+      "description": "Een elegante en verrassende tosti. Krokant, goudbruin desembrood met zachte, licht gerookte, warme zalm en romige, smeltende kaas. Cupje ketchup inbegrepen!",
+      "category": "Tosti's",
+      "categorySlug": "tostis",
+      "subgroup": null,
+      "categories": [
+        "Tosti's"
+      ],
+      "tags": [
+        "sandwich",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Vis",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-e1cf1cda-e3a4-4c52-842e-b8088df5277f.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-e1cf1cda-e3a4-4c52-842e-b8088df5277f.jpg"
+    },
+    {
+      "id": "uitsmijter-classic",
+      "sourceId": 18887,
+      "code": "VHG9900000049",
+      "name": "Uitsmijter classic",
+      "slug": "uitsmijter-classic",
+      "price": 8.75,
+      "priceFrom": false,
+      "description": "Drie perfect gebakken scharreleieren met een heerlijke, zachte dooier. Geserveerd met malse ham en kaas op vers desembrood.",
+      "category": "Uitsmijters",
+      "categorySlug": "uitsmijters",
+      "subgroup": null,
+      "categories": [
+        "Uitsmijters"
+      ],
+      "tags": [
+        "eggs",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-dddabd44-47b1-4853-8952-4148ed0baa3a.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-dddabd44-47b1-4853-8952-4148ed0baa3a.jpg"
+    },
+    {
+      "id": "uitsmijter-oude-kaas",
+      "sourceId": 18888,
+      "code": "VHG9900000050",
+      "name": "Uitsmijter oude kaas",
+      "slug": "uitsmijter-good-old",
+      "price": 9.25,
+      "priceFrom": false,
+      "description": "Drie zachte, warm gebakken scharreleieren royaal belegd met intens hartige plakken oude kaas.",
+      "category": "Uitsmijters",
+      "categorySlug": "uitsmijters",
+      "subgroup": null,
+      "categories": [
+        "Uitsmijters"
+      ],
+      "tags": [
+        "eggs",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Melk"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-6dd202c8-4e2f-418a-88db-db6dfffda390.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-6dd202c8-4e2f-418a-88db-db6dfffda390.jpg"
+    },
+    {
+      "id": "uitsmijter-classic-bacon",
+      "sourceId": 18889,
+      "code": "VHG9900000051",
+      "name": "Uitsmijter classic bacon",
+      "slug": "uitsmijter-classic-bacon",
+      "price": 9.8,
+      "priceFrom": false,
+      "description": "Een stevige ei-maaltijd, verrijkt met ham, kaas en krokant uitgebakken plakken bacon voor die perfecte zoute crunch.",
+      "category": "Uitsmijters",
+      "categorySlug": "uitsmijters",
+      "subgroup": null,
+      "categories": [
+        "Uitsmijters"
+      ],
+      "tags": [
+        "eggs",
+        "main",
+        "cheese"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-d9542cb7-d4be-4be5-8b84-f58d3579af63.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-d9542cb7-d4be-4be5-8b84-f58d3579af63.jpg"
+    },
+    {
+      "id": "uitsmijter-zalm",
+      "sourceId": 18698,
+      "code": "VHG0000000849",
+      "name": "Uitsmijter zalm",
+      "slug": "uitsmijter-zalm",
+      "price": 12.25,
+      "priceFrom": false,
+      "description": "Drie scharreleieren op zacht desembrood, afgetopt met zachte, licht gerookte zalm.",
+      "category": "Uitsmijters",
+      "categorySlug": "uitsmijters",
+      "subgroup": null,
+      "categories": [
+        "Uitsmijters"
+      ],
+      "tags": [
+        "eggs",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Vis"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-37c5db04-398f-4dba-a009-6d2383eb0ea8.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-37c5db04-398f-4dba-a009-6d2383eb0ea8.jpg"
+    },
+    {
+      "id": "uitsmijter-carpaccio",
+      "sourceId": 508710,
+      "code": "VHG0000002078",
+      "name": "Uitsmijter carpaccio",
+      "slug": "uitsmijter-carpaccio",
+      "price": 12.25,
+      "priceFrom": false,
+      "description": "Drie versgebakken scharreleieren op zacht desembrood, afgetopt met malse en flinterdunne carpaccio.",
+      "category": "Uitsmijters",
+      "categorySlug": "uitsmijters",
+      "subgroup": null,
+      "categories": [
+        "Uitsmijters"
+      ],
+      "tags": [
+        "eggs",
+        "main"
+      ],
+      "allergens": [
+        "Gluten",
+        "Ei",
+        "Noten",
+        "Soja",
+        "Melk",
+        "Selderij",
+        "Mosterd"
+      ],
+      "hasOptions": true,
+      "image": "https://ntf.blob.core.windows.net/pictures/2-73ccbf7a-fd8f-4740-98b1-ef41aea98405.jpg",
+      "thumbnail": "https://ntf.blob.core.windows.net/pictures/3-73ccbf7a-fd8f-4740-98b1-ef41aea98405.jpg"
+    }
+  ]
+}
