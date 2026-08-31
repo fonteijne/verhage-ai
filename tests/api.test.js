@@ -19,11 +19,17 @@ const post = async (p, body) => {
   return { status: res.status, body: await res.json().catch(() => ({})) };
 };
 
-test('health reports the catalog and that checkout is off', async () => {
+test('health reports the catalog, the active agent and that checkout is off', async () => {
   const h = await get('/api/health');
   assert.equal(h.ok, true);
   assert.equal(h.checkoutAvailable, false);
   assert.ok(h.products > 150);
+  assert.ok(h.agent.id && h.agent.label, 'health should name the active provider');
+});
+
+test('a session tells the client which provider is answering', async () => {
+  const { body } = await post('/api/session');
+  assert.ok(['anthropic', 'openrouter', 'fallback'].includes(body.agent.id));
 });
 
 test('a session starts with a greeting and an empty cart', async () => {

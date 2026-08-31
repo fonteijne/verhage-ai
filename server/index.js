@@ -6,7 +6,7 @@ import { existsSync } from 'node:fs';
 
 import { catalog, searchProducts, toSummary } from './catalog.js';
 import { cartView } from './cart.js';
-import { runAgent, hasLLM } from './agent/index.js';
+import { runAgent, describeProvider } from './agent/index.js';
 import { GREETING } from './agent/prompt.js';
 
 const app = express();
@@ -38,7 +38,7 @@ app.get('/api/health', (_req, res) =>
     ok: true,
     store: catalog.store,
     products: catalog.products.length,
-    agent: hasLLM() ? 'claude' : 'rule-based-fallback',
+    agent: describeProvider(),
     checkoutAvailable: false,
   })
 );
@@ -70,7 +70,7 @@ app.post('/api/session', (_req, res) => {
     sessionId,
     greeting: GREETING,
     store: catalog.store,
-    agent: hasLLM() ? 'claude' : 'rule-based-fallback',
+    agent: describeProvider(),
     cart: cartView(sessionId),
   });
 });
@@ -148,7 +148,9 @@ if (existsSync(dist)) {
 if (process.env.NODE_ENV !== 'test') {
   app.listen(PORT, () => {
     console.log(`Verhage AI running on http://localhost:${PORT}`);
-    console.log(`  agent:    ${hasLLM() ? 'Claude (ANTHROPIC_API_KEY set)' : 'rule-based fallback'}`);
+    const agent = describeProvider();
+    console.log(`  agent:    ${agent.label}${agent.model ? ` (${agent.model})` : ''}`);
+    if (agent.error) console.error(`  WARNING:  ${agent.error}`);
     console.log(`  catalog:  ${catalog.products.length} producten`);
     console.log('  checkout: disabled by design');
   });

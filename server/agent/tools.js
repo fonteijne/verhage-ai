@@ -127,8 +127,23 @@ export const TOOLS = [
   },
 ];
 
+/** Canonical (Anthropic-shaped) tool definitions. */
 export const TOOL_SCHEMAS = TOOLS.map(({ name, description, input_schema }) => ({
   name, description, input_schema,
+}));
+
+/**
+ * The same tools in OpenAI function-calling shape, for OpenRouter and any
+ * other OpenAI-compatible endpoint. One definition, two wire formats — the
+ * agent's capabilities cannot drift between providers.
+ */
+export const OPENAI_TOOL_SCHEMAS = TOOL_SCHEMAS.map((tool) => ({
+  type: 'function',
+  function: {
+    name: tool.name,
+    description: tool.description,
+    parameters: tool.input_schema,
+  },
 }));
 
 const BY_NAME = new Map(TOOLS.map((t) => [t.name, t]));
@@ -137,6 +152,30 @@ const BY_NAME = new Map(TOOLS.map((t) => [t.name, t]));
 export const MUTATING_TOOLS = new Set([
   'add_to_cart', 'update_cart_item', 'remove_from_cart', 'clear_cart',
 ]);
+
+/**
+ * Collects the tool calls of one assistant turn.
+ *
+ * Both providers share this, so cart mutations, the event trace and the
+ * refusal of unknown tools behave identically no matter who is driving.
+ */
+export function createToolExecutor(sessionId) {
+  const events = [];
+  let cartChanged = false;
+
+  return {
+    events,
+    get cartChanged() {
+      return cartChanged;
+    },
+    run(name, input) {
+      const result = runTool(name, input, { sessionId });
+      if (MUTATING_TOOLS.has(name) && result?.ok) cartChanged = true;
+      events.push({ tool: name, input, result });
+      return result;
+    },
+  };
+}
 
 export function runTool(name, input, ctx) {
   const tool = BY_NAME.get(name);

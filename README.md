@@ -20,6 +20,8 @@ or UI control exists that places an order or takes a payment.
 - **Fills the cart, and only the cart.** Every cart change goes through the
   agent — even the buttons in the UI send a chat message rather than mutating
   state directly, so the conversation stays the single source of truth.
+- **Runs on Anthropic, OpenRouter, or no key at all.** Same tools, same
+  guarantees — see [The agent](#the-agent).
 - **Never checks out, orders or pays.** See [Guardrails](#guardrails).
 
 ## Quick start
@@ -29,10 +31,11 @@ npm install
 npm run dev          # http://localhost:5173
 ```
 
-No API key required — see [The agent](#the-agent).
+No API key required — see [The agent](#the-agent) for running it on Claude or
+on any OpenRouter model instead.
 
 ```bash
-npm test             # 66 tests
+npm test             # 87 tests
 npm run build        # production bundle
 npm start            # serves the built app on :3001
 npm run catalog      # re-scrape the live assortment
@@ -53,19 +56,39 @@ The agent runs a standard tool-use loop over these eight tools:
 | `view_cart` | Read the current order |
 | `suggest_cross_sell` | Ranked, explained cross-sell candidates |
 
-**Two interchangeable implementations drive that same tool set:**
+**Three interchangeable providers drive that same tool set:**
 
-- **Claude** (`server/agent/index.js`) when `ANTHROPIC_API_KEY` is set —
-  `claude-opus-5` by default, at low effort since taking an order is a simple,
-  latency-sensitive task.
-- **A deterministic rule-based agent** (`server/agent/fallback.js`) otherwise.
-  It parses intent, quantities, dietary wishes and yes/no answers with rules
-  instead of a model.
+| Provider | Selected by | Default model |
+| --- | --- | --- |
+| **Anthropic** | `ANTHROPIC_API_KEY` | `claude-opus-5`, low effort — taking an order is simple and latency-sensitive |
+| **OpenRouter** | `OPENROUTER_API_KEY` | `anthropic/claude-opus-5` — or any of ~400 tool-calling models |
+| **Rule-based** | nothing configured | — parses intent, quantities, dietary wishes and yes/no answers with rules instead of a model |
 
-Because both call identical tools, cart behaviour, cross-selling and the
-no-checkout guarantee are identical either way. The fallback is what makes the
-app runnable and fully testable with no credentials — the badge in the header
-shows which one is live.
+Whichever is active, the tools are identical, so cart behaviour, cross-selling
+and the no-checkout guarantee do not change with the model behind it. The
+rule-based agent is what makes the app runnable and fully testable with no
+credentials. The header badge shows the live provider and model.
+
+```bash
+# Anthropic
+ANTHROPIC_API_KEY=sk-ant-... npm run dev
+
+# OpenRouter, on whatever model you like
+OPENROUTER_API_KEY=sk-or-... OPENROUTER_MODEL=openai/gpt-5.2 npm run dev
+```
+
+Without `AGENT_PROVIDER`, the first configured provider wins (Anthropic before
+OpenRouter). Set `AGENT_PROVIDER=openrouter|anthropic|fallback` to pin one;
+naming a provider whose key is missing fails at startup rather than silently
+downgrading. See `.env.example` for every variable.
+
+### Adding another provider
+
+`server/agent/providers/` holds one module per provider, each exporting
+`isConfigured()`, `model()` and `run()`. Tool definitions live once in
+`server/agent/tools.js` and are translated per wire format — Anthropic's
+`input_schema` shape and OpenAI's `function.parameters` shape come from the
+same source, so a provider cannot end up with a different set of capabilities.
 
 ## Guardrails
 
@@ -73,8 +96,8 @@ The constraint is enforced in four independent places, so no single mistake —
 including a model that decides to be helpful — can produce an order.
 
 1. **No capability exists.** The tool surface has no order, checkout, pickup-time
-   or payment tool. An invented tool call (`place_order`) returns an error
-   explaining the assistant can only compose a basket.
+   or payment tool, on any provider. An invented tool call (`place_order`)
+   returns an error explaining the assistant can only compose a basket.
 2. **No endpoint exists.** `/api/checkout`, `/api/order`, `/api/pay` and friends
    answer `501 not_implemented` rather than 404, so the boundary is deliberate
    and visible.
@@ -85,6 +108,8 @@ including a model that decides to be helpful — can produce an order.
 
 `tests/guardrails.test.js` asserts all of it, including that the agent declines
 five different ways of asking to pay while leaving the cart untouched.
+`tests/openrouter.test.js` re-checks the tool surface and the refusal of an
+invented `place_order` call on the OpenRouter path specifically.
 
 ## The catalog
 
@@ -122,13 +147,16 @@ server/
   cart.js                  cart state — the only mutable state
   crosssell.js             cross-sell rules
   agent/
-    tools.js               the agent's entire capability surface
+    tools.js               the agent's entire capability surface, both formats
     prompt.js              system prompt
-    index.js               Claude tool-use loop
+    index.js               provider selection
     fallback.js            rule-based agent (no API key needed)
+    providers/
+      anthropic.js         Anthropic Messages API loop
+      openrouter.js        OpenAI-compatible loop for OpenRouter
   index.js                 HTTP API
 src/                       React chat + cart UI
-tests/                     66 tests
+tests/                     87 tests
 ```
 
 ## Notes

@@ -4,6 +4,20 @@ import ChatMessage from './components/ChatMessage.jsx';
 import CartPanel from './components/CartPanel.jsx';
 import Composer from './components/Composer.jsx';
 
+/** Shows which provider is answering, and on which model. */
+function AgentBadge({ agent }) {
+  if (!agent) return null;
+  const live = agent.id !== 'fallback' && agent.id !== 'error';
+  const title = agent.error || (agent.model ? `Model: ${agent.model}` : undefined);
+  return (
+    <span className={`agent-badge ${live ? 'live' : ''} ${agent.id === 'error' ? 'bad' : ''}`} title={title}>
+      {agent.label}
+      {live && agent.model && <em>{agent.model}</em>}
+      {agent.id === 'fallback' && <em>geen API-key</em>}
+    </span>
+  );
+}
+
 const QUICK_STARTS = [
   'Ik wil graag een cheeseburger',
   'Wat hebben jullie vegetarisch?',
@@ -73,9 +87,7 @@ export default function App() {
             <p>Bestellen via de chat{session?.store?.pickupOnly ? ' · alleen afhalen' : ''}</p>
           </div>
         </div>
-        <span className={`agent-badge ${session?.agent === 'claude' ? 'live' : ''}`}>
-          {session?.agent === 'claude' ? 'Claude-agent' : 'Regel-agent (geen API-key)'}
-        </span>
+        <AgentBadge agent={session?.agent} />
       </header>
 
       <main className="layout">
