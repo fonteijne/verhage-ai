@@ -32,6 +32,14 @@ test('a session tells the client which provider is answering', async () => {
   assert.ok(['anthropic', 'openrouter', 'fallback'].includes(body.agent.id));
 });
 
+test('the suite runs on the rule-based agent, never a billable provider', async () => {
+  // `npm test` pins AGENT_PROVIDER=fallback. If that pin is ever dropped on a
+  // machine holding a real key, these tests would call a paid API for every
+  // chat assertion — fail loudly instead.
+  const h = await get('/api/health');
+  assert.equal(h.agent.id, 'fallback', 'run the suite with AGENT_PROVIDER=fallback');
+});
+
 test('a session starts with a greeting and an empty cart', async () => {
   const { body } = await post('/api/session');
   assert.ok(body.sessionId);

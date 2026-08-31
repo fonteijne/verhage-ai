@@ -1,3 +1,4 @@
+import { envFile } from './env.js'; // must be first: populates process.env
 import express from 'express';
 import { randomUUID } from 'node:crypto';
 import path from 'node:path';
@@ -100,6 +101,15 @@ app.post('/api/chat', async (req, res) => {
       cart: cartView(sessionId),
     });
   } catch (err) {
+    if (err.configError) {
+      // Misconfiguration, not a transient fault — say exactly what is wrong.
+      console.error('[chat] configuration error:', err.message);
+      return res.status(503).json({
+        error: 'agent_misconfigured',
+        message: err.message,
+        reply: `Configuratiefout: ${err.message}`,
+      });
+    }
     console.error('[chat] agent error:', err);
     res.status(500).json({
       error: 'agent_error',
@@ -148,8 +158,10 @@ if (existsSync(dist)) {
 if (process.env.NODE_ENV !== 'test') {
   app.listen(PORT, () => {
     console.log(`Verhage AI running on http://localhost:${PORT}`);
+    console.log(`  env:      ${envFile ? '.env geladen' : 'geen .env gevonden'}`);
     const agent = describeProvider();
     console.log(`  agent:    ${agent.label}${agent.model ? ` (${agent.model})` : ''}`);
+    if (agent.reason) console.log(`            ${agent.reason}`);
     if (agent.error) console.error(`  WARNING:  ${agent.error}`);
     console.log(`  catalog:  ${catalog.products.length} producten`);
     console.log('  checkout: disabled by design');

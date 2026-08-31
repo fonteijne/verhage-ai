@@ -38,7 +38,7 @@ No API key required — see [The agent](#the-agent) for running it on Claude or
 on any OpenRouter model instead.
 
 ```bash
-npm test             # 105 tests
+npm test             # 110 tests
 npm run build        # production bundle
 npm start            # serves the built app on :3001
 npm run catalog      # re-scrape the live assortment
@@ -101,10 +101,37 @@ parameter for models that reject it. Reasoning *output* is always excluded —
 otherwise a reply truncated mid-thought arrives with the raw chain of thought
 in it.
 
-Without `AGENT_PROVIDER`, the first configured provider wins (Anthropic before
-OpenRouter). Set `AGENT_PROVIDER=openrouter|anthropic|fallback` to pin one;
-naming a provider whose key is missing fails at startup rather than silently
-downgrading. See `.env.example` for every variable.
+#### Configuring it with `.env`
+
+Copy `.env.example` to `.env` in the **project root** and fill in a key:
+
+```bash
+cp .env.example .env
+# then edit .env:
+#   OPENROUTER_API_KEY=sk-or-...
+#   AGENT_PROVIDER=openrouter
+npm run dev
+```
+
+The server loads `.env` itself on startup, so no export is needed. Real
+environment variables take precedence over the file, which is how
+`AGENT_PROVIDER=fallback npm test` and container-injected config override a
+local `.env`.
+
+Whether it worked is printed on startup and shown in the header badge:
+
+```
+Verhage AI running on http://localhost:3001
+  env:      .env geladen
+  agent:    OpenRouter (deepseek/deepseek-v4-flash-0731)
+```
+
+If it says `Regel-agent (rule-based)`, the next line says why — the usual cause
+is a `.env` in the wrong directory, or a key name that does not match. Without
+`AGENT_PROVIDER`, the first configured provider wins (Anthropic before
+OpenRouter). Naming a provider whose key is missing is a startup error and a
+`503` on `/api/chat`, rather than a silent downgrade to a different agent than
+you asked for.
 
 ### Adding another provider
 
@@ -167,6 +194,7 @@ Re-run `npm run catalog` to refresh; the shape is asserted by
 data/catalog.json          normalised assortment (generated)
 scripts/build-catalog.mjs  scraper + normaliser
 server/
+  env.js                   loads .env before anything reads it
   catalog.js               search and ranking
   cart.js                  cart state — the only mutable state
   crosssell.js             cross-sell rules
@@ -181,7 +209,7 @@ server/
   index.js                 HTTP API
 src/                       React chat + cart UI
   lib/richtext.js          parses the markdown models emit
-tests/                     105 tests
+tests/                     110 tests
 ```
 
 ## Notes

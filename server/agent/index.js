@@ -59,7 +59,15 @@ export function selectProvider() {
 export function describeProvider() {
   try {
     const provider = selectProvider();
-    return { id: provider.id, label: provider.label, model: provider.model() };
+    const described = { id: provider.id, label: provider.label, model: provider.model() };
+    if (provider.id === 'fallback' && !process.env.AGENT_PROVIDER) {
+      // The commonest cause is a .env that never got loaded, which otherwise
+      // looks identical to "no key configured".
+      described.reason =
+        'Geen ANTHROPIC_API_KEY of OPENROUTER_API_KEY gevonden in de omgeving. ' +
+        'Zet ze in .env in de projectmap (npm run dev leest die automatisch) of exporteer ze in je shell.';
+    }
+    return described;
   } catch (err) {
     return { id: 'error', label: 'Configuratiefout', model: null, error: err.message };
   }
@@ -73,7 +81,13 @@ export const hasLLM = () => selectProvider().id !== 'fallback';
  * @returns {Promise<{reply:string, events:object[], history:object[], cartChanged:boolean}>}
  */
 export async function runAgent({ sessionId, message, history = [] }) {
-  const provider = selectProvider();
+  let provider;
+  try {
+    provider = selectProvider();
+  } catch (err) {
+    err.configError = true; // a wrong AGENT_PROVIDER, not a runtime failure
+    throw err;
+  }
 
   try {
     return await provider.run({ sessionId, message, history });
