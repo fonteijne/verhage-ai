@@ -217,3 +217,6 @@ tests/                     110 tests
 This is a demonstration built against a public menu; it is not affiliated with
 Verhage. Prices and assortment are a snapshot of the live site and a *vanaf*
 price is a starting price, not a final one.
+
+It is also a capability test: the whole application was built from two prompts.
+See [DISCLAIMER.md](DISCLAIMER.md) for those prompts and the full terms.
