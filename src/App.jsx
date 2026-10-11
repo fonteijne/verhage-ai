@@ -1,5 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { startSession, sendMessage } from './lib/api.js';
+import { startSession, sendMessage, euro } from './lib/api.js';
+import { gsap, useGSAP, reducedMotion } from './lib/motion.js';
+import { useLenis } from './lib/smoothScroll.js';
+import ClickSpark from './components/bits/ClickSpark.jsx';
+import ShinyText from './components/bits/ShinyText.jsx';
+import QuickStarts from './components/QuickStarts.jsx';
 import ChatMessage from './components/ChatMessage.jsx';
 import CartPanel from './components/CartPanel.jsx';
 import Composer from './components/Composer.jsx';
@@ -18,6 +23,8 @@ function AgentBadge({ agent }) {
   );
 }
 
+const PAGE_LENIS = { prevent: (node) => Boolean(node.closest?.('.messages, .cart')) };
+
 const QUICK_STARTS = [
   'Ik wil graag een cheeseburger',
   'Wat hebben jullie vegetarisch?',
@@ -31,7 +38,30 @@ export default function App() {
   const [cart, setCart] = useState({ items: [], itemCount: 0, subtotal: 0 });
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState(null);
+  const [cartOpen, setCartOpen] = useState(false);
+  const app = useRef(null);
   const scroller = useRef(null);
+  const messagesInner = useRef(null);
+
+  // Smooth scrolling for the page (mobile) and, separately, the message list.
+  useLenis(null, null, PAGE_LENIS);
+  const chatScroll = useLenis(scroller, messagesInner);
+
+  // Page entrance.
+  useGSAP(
+    () => {
+      if (reducedMotion()) return;
+      const tl = gsap.timeline({ defaults: { ease: 'power3.out', clearProps: 'transform,opacity' } });
+      tl.from('.topbar', { yPercent: -100, duration: 0.7 })
+        .from('.brand-mark', { scale: 0, rotation: -90, duration: 0.8, ease: 'back.out(2)' }, '<0.2')
+        .from('.chat', { opacity: 0, y: 36, duration: 0.8 }, '<0.1');
+      // On narrow screens the cart is an off-canvas sheet; leave it to CSS.
+      if (!window.matchMedia('(max-width: 900px)').matches) {
+        tl.from('.cart', { opacity: 0, y: 36, duration: 0.8 }, '<0.12');
+      }
+    },
+    { scope: app }
+  );
 
   useEffect(() => {
     startSession()
@@ -44,8 +74,23 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    scroller.current?.scrollTo({ top: scroller.current.scrollHeight, behavior: 'smooth' });
-  }, [messages, busy]);
+    const el = scroller.current;
+    if (!el) return;
+    const lenis = chatScroll.current;
+    if (lenis) {
+      lenis.resize();
+      lenis.scrollTo(lenis.limit, { duration: 0.9 });
+    } else {
+      el.scrollTo({ top: el.scrollHeight, behavior: reducedMotion() ? 'auto' : 'smooth' });
+    }
+  }, [messages, busy, chatScroll]);
+
+  useEffect(() => {
+    if (!cartOpen) return undefined;
+    const onKey = (e) => e.key === 'Escape' && setCartOpen(false);
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [cartOpen]);
 
   const send = useCallback(
     async (text) => {
@@ -78,7 +123,8 @@ export default function App() {
   );
 
   return (
-    <div className="app">
+    <ClickSpark sparkColor="#f5a623" sparkSize={11} sparkRadius={20} sparkCount={9} duration={450}>
+    <div className="app" ref={app}>
       <header className="topbar">
         <div className="brand">
           <span className="brand-mark">V</span>
@@ -93,32 +139,38 @@ export default function App() {
       <main className="layout">
         <section className="chat" aria-label="Gesprek">
           <div className="messages" ref={scroller}>
-            {messages.map((m, i) => (
-              <ChatMessage key={i} message={m} onSend={send} disabled={busy} />
-            ))}
-            {busy && (
-              <div className="msg assistant">
-                <div className="bubble typing" aria-label="Assistent typt">
-                  <span /><span /><span />
+            <div className="messages-inner" ref={messagesInner} aria-live="polite">
+              {messages.map((m, i) => (
+                <ChatMessage key={i} message={m} onSend={send} disabled={busy} />
+              ))}
+              {busy && (
+                <div className="msg assistant">
+                  <div className="bubble typing" role="status">
+                    <span className="dots" aria-hidden="true"><span /><span /><span /></span>
+                    <ShinyText text="Even kijken in het assortiment…" color="#8a7d75" shineColor="#d81f26" speed={2.2} />
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
 
-          {messages.length <= 1 && !busy && (
-            <div className="quickstarts">
-              {QUICK_STARTS.map((q) => (
-                <button key={q} onClick={() => send(q)} disabled={busy}>{q}</button>
-              ))}
-            </div>
+          {messages.length <= 1 && !busy && session && (
+            <QuickStarts items={QUICK_STARTS} onSend={send} disabled={busy} />
           )}
 
           {error && <p className="error" role="alert">{error}</p>}
           <Composer onSend={send} disabled={busy || !session} />
         </section>
 
-        <CartPanel cart={cart} onSend={send} disabled={busy} />
+        <CartPanel cart={cart} onSend={send} disabled={busy} open={cartOpen} onClose={() => setCartOpen(false)} />
       </main>
+
+      <button className="cart-bar" onClick={() => setCartOpen(true)} aria-label="Bekijk je bestelling">
+        <span>Je bestelling{cart.itemCount ? ` · ${cart.itemCount}` : ''}</span>
+        <strong>{euro(cart.subtotal || 0)}</strong>
+      </button>
+      <div className={`scrim ${cartOpen ? 'show' : ''}`} onClick={() => setCartOpen(false)} />
     </div>
+    </ClickSpark>
   );
 }

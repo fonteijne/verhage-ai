@@ -23,6 +23,14 @@ or UI control exists that places an order or takes a payment.
 - **Renders what models actually emit.** Replies come back with markdown bold
   and lists whatever the prompt says, so the chat bubble parses the common
   subset into elements (never raw HTML).
+- **Motion with restraint.** Built on [GSAP](https://github.com/greensock/GSAP)
+  (`useGSAP`, `SplitText`, scoped and reverted per the official
+  [gsap-skills](https://github.com/greensock/gsap-skills)), [Lenis](https://github.com/darkroomengineering/lenis)
+  smooth scrolling driven by GSAP's ticker, and a few
+  [React Bits](https://github.com/DavidHDev/react-bits) pieces (`SpotlightCard`,
+  `ClickSpark`, `ShinyText`, in `src/components/bits/`). Replies reveal word by
+  word, the cart total counts, changed lines flash, and on phones the cart is a
+  bottom sheet. Everything is off under `prefers-reduced-motion`.
 - **Runs on Anthropic, OpenRouter, or no key at all.** Same tools, same
   guarantees — see [The agent](#the-agent).
 - **Never checks out, orders or pays.** See [Guardrails](#guardrails).
