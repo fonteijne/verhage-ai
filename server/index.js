@@ -155,7 +155,7 @@ if (existsSync(dist)) {
   app.get(/^(?!\/api\/).*/, (_req, res) => res.sendFile(path.join(dist, 'index.html')));
 }
 
-if (process.env.NODE_ENV !== 'test') {
+if (process.env.NODE_ENV !== 'test' && !process.env.VERCEL) {
   app.listen(PORT, () => {
     console.log(`Verhage AI running on http://localhost:${PORT}`);
     console.log(`  env:      ${envFile ? '.env geladen' : 'geen .env gevonden'}`);
